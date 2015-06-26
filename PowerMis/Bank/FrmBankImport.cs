@@ -12,6 +12,7 @@ namespace PowerMis.Bank
     public partial class FrmBankImport : Form
     {
         private string importPath;//导入数据性质
+        Microsoft.Office.Interop.Excel.Application importExcel=new Microsoft.Office.Interop.Excel.Application();;
         public FrmBankImport()
         {
             InitializeComponent();
@@ -103,9 +104,27 @@ namespace PowerMis.Bank
             {
                 MessageBox.Show("请选择导入的年份或月份");
             }
+            Excel.Application excel = new Excel.ApplicationClass();//lauch excel application  
+
+            if (ElectriCharacter.SelectedIndex == 0)
+            {
+                importCityExcel(); //导入城网数据
+            }
+            else {
+                importRuralExcel(); //导入农网数据
+            }
 
 
+        }
 
+        private void importRuralExcel()
+        {
+          
+        }
+
+        private void importCityExcel()
+        {
+            
         }
 
     }
