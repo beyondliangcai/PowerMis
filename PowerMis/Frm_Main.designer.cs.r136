@@ -1,0 +1,688 @@
+﻿namespace PowerMis
+{
+    partial class Frm_Main
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Frm_Main));
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.基本信息管理ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.电价信息ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.变损信息ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.变压器信息toolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.台区信息ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.线路信息ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.附加信息ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.电表信息ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.线路电表ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.台区电表ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.接收电表ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.客户信息管理ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.客户信息录入ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.客户信息维护ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.客户信息查询ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.客户转册ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.计费管理ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.抄表管理ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.抄表录入ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.抄表维护ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.分摊变损ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.全年查询ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.供电管理ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.台区供电ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.线路供电ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.接收电量ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.统计打印ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.电费电量ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.电费统计ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.台区电量ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.线路电量ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.农村电量ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.机关枢纽ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.电费清单ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.按册统计ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.发票金额ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.收费日报ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.收费月报ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.欠费清单ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.累计欠费ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.企业台区ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.发票打印ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.农网发票ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.城网发票ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.增值税发票ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.更改发票ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.系统管理ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.用户管理ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.修改密码ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.数据备份ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.数据还原ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.退出系统ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.帮助ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.statusStrip1 = new System.Windows.Forms.StatusStrip();
+            this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
+            this.userName = new System.Windows.Forms.ToolStripStatusLabel();
+            this.Time = new System.Windows.Forms.ToolStripStatusLabel();
+            this.loginTime = new System.Windows.Forms.ToolStripStatusLabel();
+            this.toolStripStatusLabel4 = new System.Windows.Forms.ToolStripStatusLabel();
+            this.toolStripStatusLabel2 = new System.Windows.Forms.ToolStripStatusLabel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.menuStrip1.SuspendLayout();
+            this.statusStrip1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.SuspendLayout();
+            // 
+            // menuStrip1
+            // 
+            this.menuStrip1.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.基本信息管理ToolStripMenuItem,
+            this.客户信息管理ToolStripMenuItem,
+            this.计费管理ToolStripMenuItem,
+            this.统计打印ToolStripMenuItem,
+            this.系统管理ToolStripMenuItem,
+            this.退出系统ToolStripMenuItem,
+            this.帮助ToolStripMenuItem});
+            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.Size = new System.Drawing.Size(1015, 24);
+            this.menuStrip1.TabIndex = 0;
+            this.menuStrip1.Text = "menuStrip1";
+            // 
+            // 基本信息管理ToolStripMenuItem
+            // 
+            this.基本信息管理ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.电价信息ToolStripMenuItem,
+            this.变损信息ToolStripMenuItem,
+            this.变压器信息toolStripMenuItem,
+            this.台区信息ToolStripMenuItem,
+            this.线路信息ToolStripMenuItem,
+            this.附加信息ToolStripMenuItem,
+            this.电表信息ToolStripMenuItem});
+            this.基本信息管理ToolStripMenuItem.Name = "基本信息管理ToolStripMenuItem";
+            this.基本信息管理ToolStripMenuItem.Size = new System.Drawing.Size(89, 20);
+            this.基本信息管理ToolStripMenuItem.Text = "基本信息管理";
+            // 
+            // 电价信息ToolStripMenuItem
+            // 
+            this.电价信息ToolStripMenuItem.Name = "电价信息ToolStripMenuItem";
+            this.电价信息ToolStripMenuItem.Size = new System.Drawing.Size(130, 22);
+            this.电价信息ToolStripMenuItem.Text = "电价信息";
+            this.电价信息ToolStripMenuItem.Click += new System.EventHandler(this.电价信息ToolStripMenuItem_Click);
+            // 
+            // 变损信息ToolStripMenuItem
+            // 
+            this.变损信息ToolStripMenuItem.Name = "变损信息ToolStripMenuItem";
+            this.变损信息ToolStripMenuItem.Size = new System.Drawing.Size(130, 22);
+            this.变损信息ToolStripMenuItem.Text = "变损信息";
+            // 
+            // 变压器信息toolStripMenuItem
+            // 
+            this.变压器信息toolStripMenuItem.Name = "变压器信息toolStripMenuItem";
+            this.变压器信息toolStripMenuItem.Size = new System.Drawing.Size(130, 22);
+            this.变压器信息toolStripMenuItem.Text = "变压器信息";
+            // 
+            // 台区信息ToolStripMenuItem
+            // 
+            this.台区信息ToolStripMenuItem.Name = "台区信息ToolStripMenuItem";
+            this.台区信息ToolStripMenuItem.Size = new System.Drawing.Size(130, 22);
+            this.台区信息ToolStripMenuItem.Text = "台区信息";
+            // 
+            // 线路信息ToolStripMenuItem
+            // 
+            this.线路信息ToolStripMenuItem.Name = "线路信息ToolStripMenuItem";
+            this.线路信息ToolStripMenuItem.Size = new System.Drawing.Size(130, 22);
+            this.线路信息ToolStripMenuItem.Text = "线路信息";
+            // 
+            // 附加信息ToolStripMenuItem
+            // 
+            this.附加信息ToolStripMenuItem.Name = "附加信息ToolStripMenuItem";
+            this.附加信息ToolStripMenuItem.Size = new System.Drawing.Size(130, 22);
+            this.附加信息ToolStripMenuItem.Text = "附加信息";
+            // 
+            // 电表信息ToolStripMenuItem
+            // 
+            this.电表信息ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.线路电表ToolStripMenuItem,
+            this.台区电表ToolStripMenuItem,
+            this.接收电表ToolStripMenuItem});
+            this.电表信息ToolStripMenuItem.Name = "电表信息ToolStripMenuItem";
+            this.电表信息ToolStripMenuItem.Size = new System.Drawing.Size(130, 22);
+            this.电表信息ToolStripMenuItem.Text = "电表信息";
+            // 
+            // 线路电表ToolStripMenuItem
+            // 
+            this.线路电表ToolStripMenuItem.Name = "线路电表ToolStripMenuItem";
+            this.线路电表ToolStripMenuItem.Size = new System.Drawing.Size(118, 22);
+            this.线路电表ToolStripMenuItem.Text = "线路电表";
+            // 
+            // 台区电表ToolStripMenuItem
+            // 
+            this.台区电表ToolStripMenuItem.Name = "台区电表ToolStripMenuItem";
+            this.台区电表ToolStripMenuItem.Size = new System.Drawing.Size(118, 22);
+            this.台区电表ToolStripMenuItem.Text = "台区电表";
+            // 
+            // 接收电表ToolStripMenuItem
+            // 
+            this.接收电表ToolStripMenuItem.Name = "接收电表ToolStripMenuItem";
+            this.接收电表ToolStripMenuItem.Size = new System.Drawing.Size(118, 22);
+            this.接收电表ToolStripMenuItem.Text = "接收电表";
+            // 
+            // 客户信息管理ToolStripMenuItem
+            // 
+            this.客户信息管理ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.客户信息录入ToolStripMenuItem,
+            this.客户信息维护ToolStripMenuItem,
+            this.客户信息查询ToolStripMenuItem,
+            this.客户转册ToolStripMenuItem});
+            this.客户信息管理ToolStripMenuItem.Name = "客户信息管理ToolStripMenuItem";
+            this.客户信息管理ToolStripMenuItem.Size = new System.Drawing.Size(89, 20);
+            this.客户信息管理ToolStripMenuItem.Text = "客户信息管理";
+            // 
+            // 客户信息录入ToolStripMenuItem
+            // 
+            this.客户信息录入ToolStripMenuItem.Name = "客户信息录入ToolStripMenuItem";
+            this.客户信息录入ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.客户信息录入ToolStripMenuItem.Text = "客户信息录入";
+            this.客户信息录入ToolStripMenuItem.Click += new System.EventHandler(this.客户信息录入ToolStripMenuItem_Click);
+            // 
+            // 客户信息维护ToolStripMenuItem
+            // 
+            this.客户信息维护ToolStripMenuItem.Name = "客户信息维护ToolStripMenuItem";
+            this.客户信息维护ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.客户信息维护ToolStripMenuItem.Text = "客户信息维护";
+            this.客户信息维护ToolStripMenuItem.Click += new System.EventHandler(this.客户信息维护ToolStripMenuItem_Click);
+            // 
+            // 客户信息查询ToolStripMenuItem
+            // 
+            this.客户信息查询ToolStripMenuItem.Name = "客户信息查询ToolStripMenuItem";
+            this.客户信息查询ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.客户信息查询ToolStripMenuItem.Text = "客户信息查询";
+            this.客户信息查询ToolStripMenuItem.Click += new System.EventHandler(this.客户信息查询ToolStripMenuItem_Click);
+            // 
+            // 客户转册ToolStripMenuItem
+            // 
+            this.客户转册ToolStripMenuItem.Name = "客户转册ToolStripMenuItem";
+            this.客户转册ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.客户转册ToolStripMenuItem.Text = "客户转册";
+            this.客户转册ToolStripMenuItem.Click += new System.EventHandler(this.客户转册ToolStripMenuItem_Click);
+            // 
+            // 计费管理ToolStripMenuItem
+            // 
+            this.计费管理ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.抄表管理ToolStripMenuItem,
+            this.供电管理ToolStripMenuItem});
+            this.计费管理ToolStripMenuItem.Name = "计费管理ToolStripMenuItem";
+            this.计费管理ToolStripMenuItem.Size = new System.Drawing.Size(65, 20);
+            this.计费管理ToolStripMenuItem.Text = "计费管理";
+            // 
+            // 抄表管理ToolStripMenuItem
+            // 
+            this.抄表管理ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.抄表录入ToolStripMenuItem,
+            this.抄表维护ToolStripMenuItem,
+            this.分摊变损ToolStripMenuItem,
+            this.全年查询ToolStripMenuItem});
+            this.抄表管理ToolStripMenuItem.Name = "抄表管理ToolStripMenuItem";
+            this.抄表管理ToolStripMenuItem.Size = new System.Drawing.Size(118, 22);
+            this.抄表管理ToolStripMenuItem.Text = "抄表管理";
+            // 
+            // 抄表录入ToolStripMenuItem
+            // 
+            this.抄表录入ToolStripMenuItem.Name = "抄表录入ToolStripMenuItem";
+            this.抄表录入ToolStripMenuItem.Size = new System.Drawing.Size(118, 22);
+            this.抄表录入ToolStripMenuItem.Text = "抄表录入";
+            this.抄表录入ToolStripMenuItem.Click += new System.EventHandler(this.抄表录入ToolStripMenuItem_Click);
+            // 
+            // 抄表维护ToolStripMenuItem
+            // 
+            this.抄表维护ToolStripMenuItem.Name = "抄表维护ToolStripMenuItem";
+            this.抄表维护ToolStripMenuItem.Size = new System.Drawing.Size(118, 22);
+            this.抄表维护ToolStripMenuItem.Text = "抄表维护";
+            this.抄表维护ToolStripMenuItem.Click += new System.EventHandler(this.抄表维护ToolStripMenuItem_Click);
+            // 
+            // 分摊变损ToolStripMenuItem
+            // 
+            this.分摊变损ToolStripMenuItem.Name = "分摊变损ToolStripMenuItem";
+            this.分摊变损ToolStripMenuItem.Size = new System.Drawing.Size(118, 22);
+            this.分摊变损ToolStripMenuItem.Text = "分摊变损";
+            this.分摊变损ToolStripMenuItem.Click += new System.EventHandler(this.分摊变损ToolStripMenuItem_Click);
+            // 
+            // 全年查询ToolStripMenuItem
+            // 
+            this.全年查询ToolStripMenuItem.Name = "全年查询ToolStripMenuItem";
+            this.全年查询ToolStripMenuItem.Size = new System.Drawing.Size(118, 22);
+            this.全年查询ToolStripMenuItem.Text = "全年查询";
+            this.全年查询ToolStripMenuItem.Click += new System.EventHandler(this.全年查询ToolStripMenuItem_Click);
+            // 
+            // 供电管理ToolStripMenuItem
+            // 
+            this.供电管理ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.台区供电ToolStripMenuItem,
+            this.线路供电ToolStripMenuItem,
+            this.接收电量ToolStripMenuItem});
+            this.供电管理ToolStripMenuItem.Name = "供电管理ToolStripMenuItem";
+            this.供电管理ToolStripMenuItem.Size = new System.Drawing.Size(118, 22);
+            this.供电管理ToolStripMenuItem.Text = "供电管理";
+            // 
+            // 台区供电ToolStripMenuItem
+            // 
+            this.台区供电ToolStripMenuItem.Name = "台区供电ToolStripMenuItem";
+            this.台区供电ToolStripMenuItem.Size = new System.Drawing.Size(118, 22);
+            this.台区供电ToolStripMenuItem.Text = "台区供电";
+            this.台区供电ToolStripMenuItem.Click += new System.EventHandler(this.台区供电ToolStripMenuItem_Click);
+            // 
+            // 线路供电ToolStripMenuItem
+            // 
+            this.线路供电ToolStripMenuItem.Name = "线路供电ToolStripMenuItem";
+            this.线路供电ToolStripMenuItem.Size = new System.Drawing.Size(118, 22);
+            this.线路供电ToolStripMenuItem.Text = "线路供电";
+            this.线路供电ToolStripMenuItem.Click += new System.EventHandler(this.线路供电ToolStripMenuItem_Click);
+            // 
+            // 接收电量ToolStripMenuItem
+            // 
+            this.接收电量ToolStripMenuItem.Name = "接收电量ToolStripMenuItem";
+            this.接收电量ToolStripMenuItem.Size = new System.Drawing.Size(118, 22);
+            this.接收电量ToolStripMenuItem.Text = "接收电量";
+            this.接收电量ToolStripMenuItem.Click += new System.EventHandler(this.接收电量ToolStripMenuItem_Click);
+            // 
+            // 统计打印ToolStripMenuItem
+            // 
+            this.统计打印ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.电费电量ToolStripMenuItem,
+            this.发票打印ToolStripMenuItem});
+            this.统计打印ToolStripMenuItem.Name = "统计打印ToolStripMenuItem";
+            this.统计打印ToolStripMenuItem.Size = new System.Drawing.Size(65, 20);
+            this.统计打印ToolStripMenuItem.Text = "统计打印";
+            // 
+            // 电费电量ToolStripMenuItem
+            // 
+            this.电费电量ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.电费统计ToolStripMenuItem,
+            this.台区电量ToolStripMenuItem,
+            this.线路电量ToolStripMenuItem,
+            this.农村电量ToolStripMenuItem,
+            this.机关枢纽ToolStripMenuItem,
+            this.电费清单ToolStripMenuItem,
+            this.按册统计ToolStripMenuItem,
+            this.发票金额ToolStripMenuItem,
+            this.收费日报ToolStripMenuItem,
+            this.收费月报ToolStripMenuItem,
+            this.欠费清单ToolStripMenuItem,
+            this.累计欠费ToolStripMenuItem,
+            this.企业台区ToolStripMenuItem});
+            this.电费电量ToolStripMenuItem.Name = "电费电量ToolStripMenuItem";
+            this.电费电量ToolStripMenuItem.Size = new System.Drawing.Size(118, 22);
+            this.电费电量ToolStripMenuItem.Text = "电费电量";
+            // 
+            // 电费统计ToolStripMenuItem
+            // 
+            this.电费统计ToolStripMenuItem.Name = "电费统计ToolStripMenuItem";
+
+            this.电费统计ToolStripMenuItem.Size = new System.Drawing.Size(122, 22);
+
+            this.电费统计ToolStripMenuItem.Text = "电费统计";
+            // 
+            // 台区电量ToolStripMenuItem
+            // 
+            this.台区电量ToolStripMenuItem.Name = "台区电量ToolStripMenuItem";
+
+            this.台区电量ToolStripMenuItem.Size = new System.Drawing.Size(122, 22);
+
+            this.台区电量ToolStripMenuItem.Text = "台区电量";
+            // 
+            // 线路电量ToolStripMenuItem
+            // 
+            this.线路电量ToolStripMenuItem.Name = "线路电量ToolStripMenuItem";
+
+            this.线路电量ToolStripMenuItem.Size = new System.Drawing.Size(122, 22);
+
+            this.线路电量ToolStripMenuItem.Text = "线路电量";
+            // 
+            // 农村电量ToolStripMenuItem
+            // 
+            this.农村电量ToolStripMenuItem.Name = "农村电量ToolStripMenuItem";
+
+            this.农村电量ToolStripMenuItem.Size = new System.Drawing.Size(122, 22);
+
+            this.农村电量ToolStripMenuItem.Text = "农村电量";
+            // 
+            // 机关枢纽ToolStripMenuItem
+            // 
+            this.机关枢纽ToolStripMenuItem.Name = "机关枢纽ToolStripMenuItem";
+
+            this.机关枢纽ToolStripMenuItem.Size = new System.Drawing.Size(122, 22);
+
+            this.机关枢纽ToolStripMenuItem.Text = "机关枢纽";
+            // 
+            // 电费清单ToolStripMenuItem
+            // 
+            this.电费清单ToolStripMenuItem.Name = "电费清单ToolStripMenuItem";
+
+            this.电费清单ToolStripMenuItem.Size = new System.Drawing.Size(122, 22);
+
+            this.电费清单ToolStripMenuItem.Text = "电费清单";
+            // 
+            // 按册统计ToolStripMenuItem
+            // 
+            this.按册统计ToolStripMenuItem.Name = "按册统计ToolStripMenuItem";
+
+            this.按册统计ToolStripMenuItem.Size = new System.Drawing.Size(122, 22);
+
+            this.按册统计ToolStripMenuItem.Text = "按册统计";
+            // 
+            // 发票金额ToolStripMenuItem
+            // 
+            this.发票金额ToolStripMenuItem.Name = "发票金额ToolStripMenuItem";
+
+            this.发票金额ToolStripMenuItem.Size = new System.Drawing.Size(122, 22);
+
+            this.发票金额ToolStripMenuItem.Text = "发票金额";
+            // 
+            // 收费日报ToolStripMenuItem
+            // 
+            this.收费日报ToolStripMenuItem.Name = "收费日报ToolStripMenuItem";
+
+            this.收费日报ToolStripMenuItem.Size = new System.Drawing.Size(122, 22);
+
+            this.收费日报ToolStripMenuItem.Text = "收费日报";
+            // 
+            // 收费月报ToolStripMenuItem
+            // 
+            this.收费月报ToolStripMenuItem.Name = "收费月报ToolStripMenuItem";
+
+            this.收费月报ToolStripMenuItem.Size = new System.Drawing.Size(122, 22);
+
+            this.收费月报ToolStripMenuItem.Text = "收费月报";
+            // 
+            // 欠费清单ToolStripMenuItem
+            // 
+            this.欠费清单ToolStripMenuItem.Name = "欠费清单ToolStripMenuItem";
+
+            this.欠费清单ToolStripMenuItem.Size = new System.Drawing.Size(122, 22);
+
+            this.欠费清单ToolStripMenuItem.Text = "欠费清单";
+            // 
+            // 累计欠费ToolStripMenuItem
+            // 
+            this.累计欠费ToolStripMenuItem.Name = "累计欠费ToolStripMenuItem";
+
+            this.累计欠费ToolStripMenuItem.Size = new System.Drawing.Size(122, 22);
+
+            this.累计欠费ToolStripMenuItem.Text = "累计欠费";
+            // 
+            // 企业台区ToolStripMenuItem
+            // 
+            this.企业台区ToolStripMenuItem.Name = "企业台区ToolStripMenuItem";
+
+            this.企业台区ToolStripMenuItem.Size = new System.Drawing.Size(122, 22);
+
+            this.企业台区ToolStripMenuItem.Text = "企业台区";
+            // 
+            // 发票打印ToolStripMenuItem
+            // 
+            this.发票打印ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.农网发票ToolStripMenuItem,
+            this.城网发票ToolStripMenuItem,
+            this.增值税发票ToolStripMenuItem,
+            this.更改发票ToolStripMenuItem});
+            this.发票打印ToolStripMenuItem.Name = "发票打印ToolStripMenuItem";
+            this.发票打印ToolStripMenuItem.Size = new System.Drawing.Size(118, 22);
+            this.发票打印ToolStripMenuItem.Text = "发票打印";
+            // 
+            // 农网发票ToolStripMenuItem
+            // 
+            this.农网发票ToolStripMenuItem.Name = "农网发票ToolStripMenuItem";
+            this.农网发票ToolStripMenuItem.Size = new System.Drawing.Size(130, 22);
+            this.农网发票ToolStripMenuItem.Text = "农网发票";
+            this.农网发票ToolStripMenuItem.Click += new System.EventHandler(this.农网发票ToolStripMenuItem_Click);
+            // 
+            // 城网发票ToolStripMenuItem
+            // 
+            this.城网发票ToolStripMenuItem.Name = "城网发票ToolStripMenuItem";
+            this.城网发票ToolStripMenuItem.Size = new System.Drawing.Size(130, 22);
+            this.城网发票ToolStripMenuItem.Text = "城网发票";
+            this.城网发票ToolStripMenuItem.Click += new System.EventHandler(this.城网发票ToolStripMenuItem_Click);
+            // 
+            // 增值税发票ToolStripMenuItem
+            // 
+            this.增值税发票ToolStripMenuItem.Name = "增值税发票ToolStripMenuItem";
+            this.增值税发票ToolStripMenuItem.Size = new System.Drawing.Size(130, 22);
+            this.增值税发票ToolStripMenuItem.Text = "增值税发票";
+            // 
+            // 更改发票ToolStripMenuItem
+            // 
+            this.更改发票ToolStripMenuItem.Name = "更改发票ToolStripMenuItem";
+            this.更改发票ToolStripMenuItem.Size = new System.Drawing.Size(130, 22);
+            this.更改发票ToolStripMenuItem.Text = "更改发票";
+            // 
+            // 系统管理ToolStripMenuItem
+            // 
+            this.系统管理ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.用户管理ToolStripMenuItem,
+            this.修改密码ToolStripMenuItem,
+            this.数据备份ToolStripMenuItem,
+            this.数据还原ToolStripMenuItem});
+            this.系统管理ToolStripMenuItem.Name = "系统管理ToolStripMenuItem";
+            this.系统管理ToolStripMenuItem.Size = new System.Drawing.Size(65, 20);
+            this.系统管理ToolStripMenuItem.Text = "系统管理";
+            // 
+            // 用户管理ToolStripMenuItem
+            // 
+            this.用户管理ToolStripMenuItem.Image = global::PowerMis.Properties.Resources.users;
+            this.用户管理ToolStripMenuItem.Name = "用户管理ToolStripMenuItem";
+            this.用户管理ToolStripMenuItem.Size = new System.Drawing.Size(118, 22);
+            this.用户管理ToolStripMenuItem.Text = "用户管理";
+            this.用户管理ToolStripMenuItem.Click += new System.EventHandler(this.用户管理ToolStripMenuItem_Click);
+            // 
+            // 修改密码ToolStripMenuItem
+            // 
+            this.修改密码ToolStripMenuItem.Image = global::PowerMis.Properties.Resources.Audit;
+            this.修改密码ToolStripMenuItem.Name = "修改密码ToolStripMenuItem";
+            this.修改密码ToolStripMenuItem.Size = new System.Drawing.Size(118, 22);
+            this.修改密码ToolStripMenuItem.Text = "修改密码";
+            this.修改密码ToolStripMenuItem.Click += new System.EventHandler(this.修改密码ToolStripMenuItem_Click);
+            // 
+            // 数据备份ToolStripMenuItem
+            // 
+            this.数据备份ToolStripMenuItem.Name = "数据备份ToolStripMenuItem";
+            this.数据备份ToolStripMenuItem.Size = new System.Drawing.Size(118, 22);
+            this.数据备份ToolStripMenuItem.Text = "数据备份";
+            // 
+            // 数据还原ToolStripMenuItem
+            // 
+            this.数据还原ToolStripMenuItem.Name = "数据还原ToolStripMenuItem";
+            this.数据还原ToolStripMenuItem.Size = new System.Drawing.Size(118, 22);
+            this.数据还原ToolStripMenuItem.Text = "数据还原";
+            // 
+            // 退出系统ToolStripMenuItem
+            // 
+            this.退出系统ToolStripMenuItem.Name = "退出系统ToolStripMenuItem";
+            this.退出系统ToolStripMenuItem.Size = new System.Drawing.Size(65, 20);
+            this.退出系统ToolStripMenuItem.Text = "退出系统";
+            this.退出系统ToolStripMenuItem.Click += new System.EventHandler(this.退出系统ToolStripMenuItem_Click);
+            // 
+            // 帮助ToolStripMenuItem
+            // 
+            this.帮助ToolStripMenuItem.Name = "帮助ToolStripMenuItem";
+            this.帮助ToolStripMenuItem.Size = new System.Drawing.Size(41, 20);
+            this.帮助ToolStripMenuItem.Text = "帮助";
+            // 
+            // statusStrip1
+            // 
+            this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripStatusLabel1,
+            this.userName,
+            this.Time,
+            this.loginTime,
+            this.toolStripStatusLabel4,
+            this.toolStripStatusLabel2});
+            this.statusStrip1.Location = new System.Drawing.Point(0, 671);
+            this.statusStrip1.Name = "statusStrip1";
+            this.statusStrip1.Size = new System.Drawing.Size(1015, 22);
+            this.statusStrip1.TabIndex = 2;
+            this.statusStrip1.Text = "statusStrip1";
+            // 
+            // toolStripStatusLabel1
+            // 
+            this.toolStripStatusLabel1.Name = "toolStripStatusLabel1";
+            this.toolStripStatusLabel1.Size = new System.Drawing.Size(77, 17);
+            this.toolStripStatusLabel1.Text = "当前操作员：";
+            // 
+            // userName
+            // 
+            this.userName.AutoSize = false;
+            this.userName.Name = "userName";
+            this.userName.Size = new System.Drawing.Size(130, 17);
+            this.userName.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // Time
+            // 
+            this.Time.Name = "Time";
+            this.Time.Size = new System.Drawing.Size(65, 17);
+            this.Time.Text = "登录时间：";
+            // 
+            // loginTime
+            // 
+            this.loginTime.AutoSize = false;
+            this.loginTime.Name = "loginTime";
+            this.loginTime.Size = new System.Drawing.Size(130, 17);
+            this.loginTime.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // toolStripStatusLabel4
+            // 
+            this.toolStripStatusLabel4.AutoSize = false;
+            this.toolStripStatusLabel4.Name = "toolStripStatusLabel4";
+            this.toolStripStatusLabel4.Size = new System.Drawing.Size(130, 17);
+            this.toolStripStatusLabel4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // toolStripStatusLabel2
+            // 
+            this.toolStripStatusLabel2.Name = "toolStripStatusLabel2";
+            this.toolStripStatusLabel2.Size = new System.Drawing.Size(161, 17);
+            this.toolStripStatusLabel2.Text = "洈水工程管理局||洈水供电所";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::PowerMis.Properties.Resources.main1;
+            this.pictureBox1.Location = new System.Drawing.Point(0, 27);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(1029, 645);
+            this.pictureBox1.TabIndex = 1;
+            this.pictureBox1.TabStop = false;
+            // 
+            // Frm_Main
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(1015, 693);
+            this.Controls.Add(this.statusStrip1);
+            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.menuStrip1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MainMenuStrip = this.menuStrip1;
+            this.MaximizeBox = false;
+            this.Name = "Frm_Main";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "洈水电费管理系统";
+            this.Load += new System.EventHandler(this.Frm_Main_Load);
+            this.menuStrip1.ResumeLayout(false);
+            this.menuStrip1.PerformLayout();
+            this.statusStrip1.ResumeLayout(false);
+            this.statusStrip1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem 基本信息管理ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 电价信息ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 变损信息ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 变压器信息toolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 台区信息ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 线路信息ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 附加信息ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 电表信息ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 线路电表ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 台区电表ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 接收电表ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 客户信息管理ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 客户信息录入ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 客户信息维护ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 客户信息查询ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 客户转册ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 计费管理ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 抄表管理ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 抄表录入ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 抄表维护ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 分摊变损ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 全年查询ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 供电管理ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 台区供电ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 线路供电ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 接收电量ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 统计打印ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 电费电量ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 电费统计ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 台区电量ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 线路电量ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 农村电量ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 机关枢纽ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 电费清单ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 按册统计ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 发票金额ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 收费日报ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 收费月报ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 欠费清单ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 累计欠费ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 企业台区ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 发票打印ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 系统管理ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 用户管理ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 修改密码ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 数据备份ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 数据还原ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 退出系统ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 帮助ToolStripMenuItem;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.StatusStrip statusStrip1;
+        private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel1;
+        private System.Windows.Forms.ToolStripStatusLabel userName;
+        private System.Windows.Forms.ToolStripStatusLabel Time;
+        private System.Windows.Forms.ToolStripStatusLabel loginTime;
+        private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel2;
+        private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel4;
+        private System.Windows.Forms.ToolStripMenuItem 农网发票ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 城网发票ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 增值税发票ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 更改发票ToolStripMenuItem;
+    }
+}

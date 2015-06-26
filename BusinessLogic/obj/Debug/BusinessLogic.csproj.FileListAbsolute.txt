@@ -1,0 +1,66 @@
+D:\Projects\BusinessLogic\bin\Debug\BusinessLogic.dll
+D:\Projects\BusinessLogic\bin\Debug\BusinessLogic.pdb
+D:\Projects\BusinessLogic\bin\Debug\BusinessModel.dll
+D:\Projects\BusinessLogic\bin\Debug\DBUtility.dll
+D:\Projects\BusinessLogic\bin\Debug\DBUtility.pdb
+D:\Projects\BusinessLogic\bin\Debug\BusinessModel.pdb
+D:\Projects\BusinessLogic\obj\Debug\ResolveAssemblyReference.cache
+D:\Projects\BusinessLogic\obj\Debug\BusinessLogic.dll
+D:\Projects\BusinessLogic\obj\Debug\BusinessLogic.pdb
+D:\Projects\BusinessLogic\bin\Debug\Common.dll
+D:\Projects\BusinessLogic\bin\Debug\Common.pdb
+C:\Documents and Settings\arcgismanager\桌面\WSPowerIMS\BusinessLogic\bin\Debug\BusinessLogic.dll
+C:\Documents and Settings\arcgismanager\桌面\WSPowerIMS\BusinessLogic\bin\Debug\BusinessLogic.pdb
+C:\Documents and Settings\arcgismanager\桌面\WSPowerIMS\BusinessLogic\bin\Debug\BusinessModel.dll
+C:\Documents and Settings\arcgismanager\桌面\WSPowerIMS\BusinessLogic\bin\Debug\Common.dll
+C:\Documents and Settings\arcgismanager\桌面\WSPowerIMS\BusinessLogic\bin\Debug\DBUtility.dll
+C:\Documents and Settings\arcgismanager\桌面\WSPowerIMS\BusinessLogic\bin\Debug\DBUtility.pdb
+C:\Documents and Settings\arcgismanager\桌面\WSPowerIMS\BusinessLogic\bin\Debug\Common.pdb
+C:\Documents and Settings\arcgismanager\桌面\WSPowerIMS\BusinessLogic\bin\Debug\BusinessModel.pdb
+C:\Documents and Settings\arcgismanager\桌面\WSPowerIMS\BusinessLogic\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\arcgismanager\桌面\WSPowerIMS\BusinessLogic\obj\Debug\BusinessLogic.dll
+C:\Documents and Settings\arcgismanager\桌面\WSPowerIMS\BusinessLogic\obj\Debug\BusinessLogic.pdb
+E:\WSPowerIMS\BusinessLogic\bin\Debug\BusinessLogic.dll
+E:\WSPowerIMS\BusinessLogic\bin\Debug\BusinessLogic.pdb
+E:\WSPowerIMS\BusinessLogic\bin\Debug\BusinessModel.dll
+E:\WSPowerIMS\BusinessLogic\bin\Debug\Common.dll
+E:\WSPowerIMS\BusinessLogic\bin\Debug\DBUtility.dll
+E:\WSPowerIMS\BusinessLogic\bin\Debug\DBUtility.pdb
+E:\WSPowerIMS\BusinessLogic\bin\Debug\Common.pdb
+E:\WSPowerIMS\BusinessLogic\bin\Debug\BusinessModel.pdb
+E:\WSPowerIMS\BusinessLogic\obj\Debug\ResolveAssemblyReference.cache
+E:\WSPowerIMS\BusinessLogic\obj\Debug\BusinessLogic.dll
+E:\WSPowerIMS\BusinessLogic\obj\Debug\BusinessLogic.pdb
+I:\新建文件夹\WSPowerIMS\BusinessLogic\bin\Debug\BusinessLogic.dll
+I:\新建文件夹\WSPowerIMS\BusinessLogic\bin\Debug\BusinessLogic.pdb
+I:\新建文件夹\WSPowerIMS\BusinessLogic\bin\Debug\BusinessModel.dll
+I:\新建文件夹\WSPowerIMS\BusinessLogic\bin\Debug\Common.dll
+I:\新建文件夹\WSPowerIMS\BusinessLogic\bin\Debug\DBUtility.dll
+I:\新建文件夹\WSPowerIMS\BusinessLogic\bin\Debug\DBUtility.pdb
+I:\新建文件夹\WSPowerIMS\BusinessLogic\bin\Debug\Common.pdb
+I:\新建文件夹\WSPowerIMS\BusinessLogic\bin\Debug\BusinessModel.pdb
+I:\新建文件夹\WSPowerIMS\BusinessLogic\obj\Debug\ResolveAssemblyReference.cache
+I:\新建文件夹\WSPowerIMS\BusinessLogic\obj\Debug\BusinessLogic.dll
+I:\新建文件夹\WSPowerIMS\BusinessLogic\obj\Debug\BusinessLogic.pdb
+D:\WSPowerIMS\BusinessLogic\bin\Debug\BusinessLogic.dll
+D:\WSPowerIMS\BusinessLogic\bin\Debug\BusinessLogic.pdb
+D:\WSPowerIMS\BusinessLogic\bin\Debug\BusinessModel.dll
+D:\WSPowerIMS\BusinessLogic\bin\Debug\Common.dll
+D:\WSPowerIMS\BusinessLogic\bin\Debug\DBUtility.dll
+D:\WSPowerIMS\BusinessLogic\bin\Debug\DBUtility.pdb
+D:\WSPowerIMS\BusinessLogic\bin\Debug\Common.pdb
+D:\WSPowerIMS\BusinessLogic\bin\Debug\BusinessModel.pdb
+D:\WSPowerIMS\BusinessLogic\obj\Debug\ResolveAssemblyReference.cache
+D:\WSPowerIMS\BusinessLogic\obj\Debug\BusinessLogic.dll
+D:\WSPowerIMS\BusinessLogic\obj\Debug\BusinessLogic.pdb
+I:\Users\cai\Desktop\洈水收费软件\源代码\WSPowerIMS\BusinessLogic\bin\Debug\BusinessLogic.dll
+I:\Users\cai\Desktop\洈水收费软件\源代码\WSPowerIMS\BusinessLogic\bin\Debug\BusinessLogic.pdb
+I:\Users\cai\Desktop\洈水收费软件\源代码\WSPowerIMS\BusinessLogic\bin\Debug\BusinessModel.dll
+I:\Users\cai\Desktop\洈水收费软件\源代码\WSPowerIMS\BusinessLogic\bin\Debug\Common.dll
+I:\Users\cai\Desktop\洈水收费软件\源代码\WSPowerIMS\BusinessLogic\bin\Debug\DBUtility.dll
+I:\Users\cai\Desktop\洈水收费软件\源代码\WSPowerIMS\BusinessLogic\bin\Debug\DBUtility.pdb
+I:\Users\cai\Desktop\洈水收费软件\源代码\WSPowerIMS\BusinessLogic\bin\Debug\Common.pdb
+I:\Users\cai\Desktop\洈水收费软件\源代码\WSPowerIMS\BusinessLogic\bin\Debug\BusinessModel.pdb
+I:\Users\cai\Desktop\洈水收费软件\源代码\WSPowerIMS\BusinessLogic\obj\Debug\ResolveAssemblyReference.cache
+I:\Users\cai\Desktop\洈水收费软件\源代码\WSPowerIMS\BusinessLogic\obj\Debug\BusinessLogic.dll
+I:\Users\cai\Desktop\洈水收费软件\源代码\WSPowerIMS\BusinessLogic\obj\Debug\BusinessLogic.pdb

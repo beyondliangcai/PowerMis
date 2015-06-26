@@ -1,0 +1,42 @@
+D:\Projects\Common\bin\Debug\Common.dll
+D:\Projects\Common\bin\Debug\Common.pdb
+D:\Projects\Common\obj\Debug\ResolveAssemblyReference.cache
+D:\Projects\Common\obj\Debug\Common.dll
+D:\Projects\Common\obj\Debug\Common.pdb
+D:\Projects\Common\bin\Debug\BusinessModel.dll
+D:\Projects\Common\bin\Debug\BusinessModel.pdb
+C:\Documents and Settings\arcgismanager\桌面\WSPowerIMS\Common\bin\Debug\Common.dll
+C:\Documents and Settings\arcgismanager\桌面\WSPowerIMS\Common\bin\Debug\Common.pdb
+C:\Documents and Settings\arcgismanager\桌面\WSPowerIMS\Common\bin\Debug\BusinessModel.dll
+C:\Documents and Settings\arcgismanager\桌面\WSPowerIMS\Common\bin\Debug\BusinessModel.pdb
+C:\Documents and Settings\arcgismanager\桌面\WSPowerIMS\Common\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\arcgismanager\桌面\WSPowerIMS\Common\obj\Debug\Common.dll
+C:\Documents and Settings\arcgismanager\桌面\WSPowerIMS\Common\obj\Debug\Common.pdb
+E:\WSPowerIMS\Common\bin\Debug\Common.dll
+E:\WSPowerIMS\Common\bin\Debug\Common.pdb
+E:\WSPowerIMS\Common\bin\Debug\BusinessModel.dll
+E:\WSPowerIMS\Common\bin\Debug\BusinessModel.pdb
+E:\WSPowerIMS\Common\obj\Debug\ResolveAssemblyReference.cache
+E:\WSPowerIMS\Common\obj\Debug\Common.dll
+E:\WSPowerIMS\Common\obj\Debug\Common.pdb
+I:\新建文件夹\WSPowerIMS\Common\bin\Debug\Common.dll
+I:\新建文件夹\WSPowerIMS\Common\bin\Debug\Common.pdb
+I:\新建文件夹\WSPowerIMS\Common\bin\Debug\BusinessModel.dll
+I:\新建文件夹\WSPowerIMS\Common\bin\Debug\BusinessModel.pdb
+I:\新建文件夹\WSPowerIMS\Common\obj\Debug\ResolveAssemblyReference.cache
+I:\新建文件夹\WSPowerIMS\Common\obj\Debug\Common.dll
+I:\新建文件夹\WSPowerIMS\Common\obj\Debug\Common.pdb
+D:\WSPowerIMS\Common\bin\Debug\Common.dll
+D:\WSPowerIMS\Common\bin\Debug\Common.pdb
+D:\WSPowerIMS\Common\bin\Debug\BusinessModel.dll
+D:\WSPowerIMS\Common\bin\Debug\BusinessModel.pdb
+D:\WSPowerIMS\Common\obj\Debug\ResolveAssemblyReference.cache
+D:\WSPowerIMS\Common\obj\Debug\Common.dll
+D:\WSPowerIMS\Common\obj\Debug\Common.pdb
+I:\Users\cai\Desktop\洈水收费软件\源代码\WSPowerIMS\Common\bin\Debug\Common.dll
+I:\Users\cai\Desktop\洈水收费软件\源代码\WSPowerIMS\Common\bin\Debug\Common.pdb
+I:\Users\cai\Desktop\洈水收费软件\源代码\WSPowerIMS\Common\bin\Debug\BusinessModel.dll
+I:\Users\cai\Desktop\洈水收费软件\源代码\WSPowerIMS\Common\bin\Debug\BusinessModel.pdb
+I:\Users\cai\Desktop\洈水收费软件\源代码\WSPowerIMS\Common\obj\Debug\ResolveAssemblyReference.cache
+I:\Users\cai\Desktop\洈水收费软件\源代码\WSPowerIMS\Common\obj\Debug\Common.dll
+I:\Users\cai\Desktop\洈水收费软件\源代码\WSPowerIMS\Common\obj\Debug\Common.pdb

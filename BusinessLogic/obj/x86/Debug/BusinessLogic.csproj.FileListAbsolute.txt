@@ -1,0 +1,3 @@
+I:\Users\cai\Desktop\洈水收费软件\源代码\WSPowerIMS\BusinessLogic\obj\x86\Debug\ResolveAssemblyReference.cache
+I:\Users\cai\Desktop\洈水收费软件\源代码\WSPowerIMS\BusinessLogic\obj\x86\Debug\BusinessLogic.DebugCustomerAction.resources
+I:\Users\cai\Desktop\洈水收费软件\源代码\WSPowerIMS\BusinessLogic\obj\x86\Debug\BusinessLogic.csproj.GenerateResource.Cache

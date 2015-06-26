@@ -1,0 +1,1106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5EA18C6D-FBFF-41DA-B2DA-2B4B1D18BD31}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PowerMis</RootNamespace>
+    <AssemblyName>PowerMis</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Enterprise.Framework, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Enterprise.InfoStore, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Shared, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\Program Files (x86)\Microsoft Visual Studio 11.0\Visual Studio Tools for Office\PIA\Office14\Microsoft.Office.Interop.Excel.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\WINDOWS\assembly\GAC_MSIL\System.Web.Services\2.0.0.0__b03f5f7f11d50a3a\System.Web.Services.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Bank\FrmBankImport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bank\FrmBankImport.Designer.cs">
+      <DependentUpon>FrmBankImport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bank\Frm_BankExport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bank\Frm_BankExport.Designer.cs">
+      <DependentUpon>Frm_BankExport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BasicInfo\Frm_AdditionInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BasicInfo\Frm_AdditionInfo.Designer.cs">
+      <DependentUpon>Frm_AdditionInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BasicInfo\EpriceInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BasicInfo\EpriceInfo.Designer.cs">
+      <DependentUpon>EpriceInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BasicInfo\Frm_AreaAmmeter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BasicInfo\Frm_AreaAmmeter.Designer.cs">
+      <DependentUpon>Frm_AreaAmmeter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BasicInfo\Frm_AreaInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BasicInfo\Frm_AreaInfo.Designer.cs">
+      <DependentUpon>Frm_AreaInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BasicInfo\Frm_LineAmmeter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BasicInfo\Frm_LineAmmeter.Designer.cs">
+      <DependentUpon>Frm_LineAmmeter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BasicInfo\Frm_LineInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BasicInfo\Frm_LineInfo.Designer.cs">
+      <DependentUpon>Frm_LineInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BasicInfo\Frm_TranLossInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BasicInfo\Frm_TranLossInfo.Designer.cs">
+      <DependentUpon>Frm_TranLossInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BasicInfo\Frm_TransformerInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BasicInfo\Frm_TransformerInfo.Designer.cs">
+      <DependentUpon>Frm_TransformerInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CountFeeManagement\Frm_AreaPowerSupply.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CountFeeManagement\Frm_AreaPowerSupply.Designer.cs">
+      <DependentUpon>Frm_AreaPowerSupply.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CountFeeManagement\Frm_FillTable.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CountFeeManagement\Frm_FillTable.Designer.cs">
+      <DependentUpon>Frm_FillTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CountFeeManagement\Frm_FillTableQuery.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CountFeeManagement\Frm_FillTableQuery.Designer.cs">
+      <DependentUpon>Frm_FillTableQuery.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CountFeeManagement\Frm_LinePowerSupply.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CountFeeManagement\Frm_LinePowerSupply.Designer.cs">
+      <DependentUpon>Frm_LinePowerSupply.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CountFeeManagement\Frm_ModifyTransLoss.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CountFeeManagement\Frm_ModifyTransLoss.Designer.cs">
+      <DependentUpon>Frm_ModifyTransLoss.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CountFeeManagement\Frm_QueryAllyear.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CountFeeManagement\Frm_QueryAllyear.Designer.cs">
+      <DependentUpon>Frm_QueryAllyear.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CountFeeManagement\Frm_ReceivePower.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CountFeeManagement\Frm_ReceivePower.Designer.cs">
+      <DependentUpon>Frm_ReceivePower.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CustomInfo\AddCustom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CustomInfo\AddCustom.Designer.cs">
+      <DependentUpon>AddCustom.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CustomInfo\ChangeSection.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CustomInfo\ChangeSection.Designer.cs">
+      <DependentUpon>ChangeSection.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CustomInfo\MaintainCustom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CustomInfo\MaintainCustom.Designer.cs">
+      <DependentUpon>MaintainCustom.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CustomInfo\SearchCustom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CustomInfo\SearchCustom.Designer.cs">
+      <DependentUpon>SearchCustom.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_DBConfig.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_DBConfig.Designer.cs">
+      <DependentUpon>Frm_DBConfig.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Login.Designer.cs">
+      <DependentUpon>Frm_Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Main.Designer.cs">
+      <DependentUpon>Frm_Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BasicInfo\Frm_ReceiveAmmeter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BasicInfo\Frm_ReceiveAmmeter.Designer.cs">
+      <DependentUpon>Frm_ReceiveAmmeter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Print.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Bank\FrmBankImport.resx">
+      <DependentUpon>FrmBankImport.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bank\Frm_BankExport.resx">
+      <DependentUpon>Frm_BankExport.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BasicInfo\EpriceInfo.resx">
+      <DependentUpon>EpriceInfo.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BasicInfo\Frm_AdditionInfo.resx">
+      <DependentUpon>Frm_AdditionInfo.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BasicInfo\Frm_AreaAmmeter.resx">
+      <DependentUpon>Frm_AreaAmmeter.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BasicInfo\Frm_AreaInfo.resx">
+      <DependentUpon>Frm_AreaInfo.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BasicInfo\Frm_LineAmmeter.resx">
+      <DependentUpon>Frm_LineAmmeter.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BasicInfo\Frm_LineInfo.resx">
+      <DependentUpon>Frm_LineInfo.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BasicInfo\Frm_ReceiveAmmeter.resx">
+      <DependentUpon>Frm_ReceiveAmmeter.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BasicInfo\Frm_TranLossInfo.resx">
+      <DependentUpon>Frm_TranLossInfo.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BasicInfo\Frm_TransformerInfo.resx">
+      <DependentUpon>Frm_TransformerInfo.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CountFeeManagement\Frm_AreaPowerSupply.resx">
+      <DependentUpon>Frm_AreaPowerSupply.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CountFeeManagement\Frm_FillTable.resx">
+      <DependentUpon>Frm_FillTable.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CountFeeManagement\Frm_FillTableQuery.resx">
+      <DependentUpon>Frm_FillTableQuery.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CountFeeManagement\Frm_LinePowerSupply.resx">
+      <DependentUpon>Frm_LinePowerSupply.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CountFeeManagement\Frm_ModifyTransLoss.resx">
+      <DependentUpon>Frm_ModifyTransLoss.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CountFeeManagement\Frm_QueryAllyear.resx">
+      <DependentUpon>Frm_QueryAllyear.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CountFeeManagement\Frm_ReceivePower.resx">
+      <DependentUpon>Frm_ReceivePower.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomInfo\AddCustom.resx">
+      <DependentUpon>AddCustom.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomInfo\ChangeSection.resx">
+      <DependentUpon>ChangeSection.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomInfo\MaintainCustom.resx">
+      <DependentUpon>MaintainCustom.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomInfo\SearchCustom.resx">
+      <DependentUpon>SearchCustom.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_DBConfig.resx">
+      <DependentUpon>Frm_DBConfig.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Login.resx">
+      <DependentUpon>Frm_Login.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Main.resx">
+      <DependentUpon>Frm_Main.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Statistical\Frm_AddPreSave.resx">
+      <DependentUpon>Frm_AddPreSave.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Statistical\Frm_ChangeInvoiceFlag.resx">
+      <DependentUpon>Frm_ChangeInvoiceFlag.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Statistical\Frm_CityInvoice.resx">
+      <DependentUpon>Frm_CityInvoice.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Statistical\Frm_CityIvoicePrint.resx">
+      <DependentUpon>Frm_CityIvoicePrint.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Statistical\Frm_negativeInvoice.resx">
+      <DependentUpon>Frm_negativeInvoice.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Statistical\Frm_NegativeInvoiceDelete.resx">
+      <DependentUpon>Frm_NegativeInvoiceDelete.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Statistical\Frm_NegativeSearch.resx">
+      <DependentUpon>Frm_NegativeSearch.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Statistical\Frm_PreSave.resx">
+      <DependentUpon>Frm_PreSave.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Statistical\Frm_RuraInvoicel.resx">
+      <DependentUpon>Frm_RuraInvoicel.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Statistical\Frm_ValueAddedTax.resx">
+      <DependentUpon>Frm_ValueAddedTax.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Statistical\Reporter\AreaPowerFeeRep.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>AreaPowerFeeRep.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Statistical\Reporter\ArrearListRep.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>ArrearListRep.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Statistical\Reporter\ArrearYearsSumRep.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>ArrearYearsSumRep.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Statistical\Reporter\DayChargeRep.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>DayChargeRep.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Statistical\Reporter\DepartmentPowerFeeRep.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>DepartmentPowerFeeRep.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Statistical\Reporter\Frm_AreaPowerFeeRep.resx">
+      <DependentUpon>Frm_AreaPowerFeeRep.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Statistical\Reporter\Frm_AreaPowerFeeStat.resx">
+      <DependentUpon>Frm_AreaPowerFeeStat.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Statistical\Reporter\Frm_ArrearListRep.resx">
+      <DependentUpon>Frm_ArrearListRep.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Statistical\Reporter\Frm_ArrearListStat.resx">
+      <DependentUpon>Frm_ArrearListStat.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Statistical\Reporter\Frm_ArrearSumRep.resx">
+      <DependentUpon>Frm_ArrearSumRep.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Statistical\Reporter\Frm_ArrearSumStat.resx">
+      <DependentUpon>Frm_ArrearSumStat.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Statistical\Reporter\Frm_ArrearYearsSum.resx">
+      <DependentUpon>Frm_ArrearYearsSum.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Statistical\Reporter\Frm_ArrearYearsSumRep.resx">
+      <DependentUpon>Frm_ArrearYearsSumRep.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Statistical\Reporter\Frm_DayChargeRep.resx">
+      <DependentUpon>Frm_DayChargeRep.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Statistical\Reporter\Frm_DayChargeStat.resx">
+      <DependentUpon>Frm_DayChargeStat.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Statistical\Reporter\Frm_DepartmentPowerFeeRep.resx">
+      <DependentUpon>Frm_DepartmentPowerFeeRep.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Statistical\Reporter\Frm_DepartmentPowerFeeStat.resx">
+      <DependentUpon>Frm_DepartmentPowerFeeStat.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Statistical\Reporter\Frm_InvoiceFeeRep.resx">
+      <DependentUpon>Frm_InvoiceFeeRep.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Statistical\Reporter\Frm_InvoiceFeeStat.resx">
+      <DependentUpon>Frm_InvoiceFeeStat.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Statistical\Reporter\Frm_LinePowerFeeRep.resx">
+      <DependentUpon>Frm_LinePowerFeeRep.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Statistical\Reporter\Frm_LinePowerFeeStat.resx">
+      <DependentUpon>Frm_LinePowerFeeStat.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Statistical\Reporter\Frm_MonthChargeRep.resx">
+      <DependentUpon>Frm_MonthChargeRep.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Statistical\Reporter\Frm_MonthChargeStat.resx">
+      <DependentUpon>Frm_MonthChargeStat.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Statistical\Reporter\Frm_NegativeInvoiceRep.resx">
+      <DependentUpon>Frm_NegativeInvoiceRep.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Statistical\Reporter\Frm_NegativeInvoiceStat.resx">
+      <DependentUpon>Frm_NegativeInvoiceStat.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Statistical\Reporter\Frm_PowerFeeListRep.resx">
+      <DependentUpon>Frm_PowerFeeListRep.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Statistical\Reporter\Frm_PowerFeeListStat.resx">
+      <DependentUpon>Frm_PowerFeeListStat.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Statistical\Reporter\Frm_PowerFeeStat.resx">
+      <DependentUpon>Frm_PowerFeeStat.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Statistical\Reporter\Frm_PowerFeeStatRep1.resx">
+      <DependentUpon>Frm_PowerFeeStatRep1.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Statistical\Reporter\Frm_PowerFeeStatRep2.resx">
+      <DependentUpon>Frm_PowerFeeStatRep2.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Statistical\Reporter\Frm_RuralOweRep.resx">
+      <DependentUpon>Frm_RuralOweRep.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Statistical\Reporter\Frm_RuralOweStat.resx">
+      <DependentUpon>Frm_RuralOweStat.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Statistical\Reporter\Frm_RuralPowerFeeRep.resx">
+      <DependentUpon>Frm_RuralPowerFeeRep.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Statistical\Reporter\Frm_RuralPowerFeeStat.resx">
+      <DependentUpon>Frm_RuralPowerFeeStat.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Statistical\Reporter\Frm_VolumPowerFeeRep.resx">
+      <DependentUpon>Frm_VolumPowerFeeRep.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Statistical\Reporter\Frm_VolumPowerFeeStat.resx">
+      <DependentUpon>Frm_VolumPowerFeeStat.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Statistical\Reporter\InvoiceFeeRep.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>InvoiceFeeRep.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Statistical\Reporter\LinePowerFeeRep.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>LinePowerFeeRep.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Statistical\Reporter\MonthChargeRep.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>MonthChargeRep.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Statistical\Reporter\NegativeInvoiceRep.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>NegativeInvoiceRep.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Statistical\Reporter\PowerFeeListRep.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>PowerFeeListRep.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Statistical\Reporter\PowerFeeStatRep.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>PowerFeeStatRep.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Statistical\Reporter\ruralOweRep.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>ruralOweRep.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Statistical\Reporter\RuralPowerFeeRep.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>RuralPowerFeeRep.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Statistical\Reporter\VolumPowerFeeRep.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>VolumPowerFeeRep.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Statistical\Reporter\Frm_CAreaPowerFeeStat.resx">
+      <DependentUpon>Frm_CAreaPowerFeeStat.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Statistical\Reporter\ArrearSumRep.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>ArrearSumRep.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Statistical\Reporter\Frm_PowerFeeListRep1.resx">
+      <DependentUpon>Frm_PowerFeeListRep1.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Statistical\Reporter\Frm_PowerFeeListStat1.resx">
+      <DependentUpon>Frm_PowerFeeListStat1.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Statistical\Reporter\PowerFeeListRep1.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>PowerFeeListRep1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SystemManagement\Frm_ModifyPassword.resx">
+      <DependentUpon>Frm_ModifyPassword.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SystemManagement\Frm_PenaltySet.resx">
+      <DependentUpon>Frm_PenaltySet.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SystemManagement\Frm_User.resx">
+      <DependentUpon>Frm_User.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Statistical\Frm_AddPreSave.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Statistical\Frm_AddPreSave.Designer.cs">
+      <DependentUpon>Frm_AddPreSave.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Statistical\Frm_ChangeInvoiceFlag.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Statistical\Frm_ChangeInvoiceFlag.Designer.cs">
+      <DependentUpon>Frm_ChangeInvoiceFlag.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Statistical\Frm_CityInvoice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Statistical\Frm_CityInvoice.Designer.cs">
+      <DependentUpon>Frm_CityInvoice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Statistical\Frm_CityIvoicePrint.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Statistical\Frm_CityIvoicePrint.Designer.cs">
+      <DependentUpon>Frm_CityIvoicePrint.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Statistical\Frm_negativeInvoice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Statistical\Frm_negativeInvoice.Designer.cs">
+      <DependentUpon>Frm_negativeInvoice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Statistical\Frm_NegativeInvoiceDelete.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Statistical\Frm_NegativeInvoiceDelete.Designer.cs">
+      <DependentUpon>Frm_NegativeInvoiceDelete.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Statistical\Frm_NegativeSearch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Statistical\Frm_NegativeSearch.Designer.cs">
+      <DependentUpon>Frm_NegativeSearch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Statistical\Frm_PreSave.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Statistical\Frm_PreSave.Designer.cs">
+      <DependentUpon>Frm_PreSave.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Statistical\Frm_RuraInvoicel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Statistical\Frm_RuraInvoicel.Designer.cs">
+      <DependentUpon>Frm_RuraInvoicel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Statistical\Frm_ValueAddedTax.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Statistical\Frm_ValueAddedTax.Designer.cs">
+      <DependentUpon>Frm_ValueAddedTax.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Statistical\Reporter\AreaPowerFeeRep.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AreaPowerFeeRep.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Statistical\Reporter\ArrearListRep.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ArrearListRep.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Statistical\Reporter\ArrearYearsSumRep.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ArrearYearsSumRep.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Statistical\Reporter\DayChargeRep.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DayChargeRep.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Statistical\Reporter\DepartmentPowerFeeRep.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DepartmentPowerFeeRep.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Statistical\Reporter\Frm_AreaPowerFeeRep.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Statistical\Reporter\Frm_AreaPowerFeeRep.Designer.cs">
+      <DependentUpon>Frm_AreaPowerFeeRep.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Statistical\Reporter\Frm_AreaPowerFeeStat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Statistical\Reporter\Frm_AreaPowerFeeStat.Designer.cs">
+      <DependentUpon>Frm_AreaPowerFeeStat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Statistical\Reporter\Frm_ArrearListRep.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Statistical\Reporter\Frm_ArrearListRep.Designer.cs">
+      <DependentUpon>Frm_ArrearListRep.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Statistical\Reporter\Frm_ArrearListStat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Statistical\Reporter\Frm_ArrearListStat.Designer.cs">
+      <DependentUpon>Frm_ArrearListStat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Statistical\Reporter\Frm_ArrearSumRep.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Statistical\Reporter\Frm_ArrearSumRep.Designer.cs">
+      <DependentUpon>Frm_ArrearSumRep.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Statistical\Reporter\Frm_ArrearSumStat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Statistical\Reporter\Frm_ArrearSumStat.Designer.cs">
+      <DependentUpon>Frm_ArrearSumStat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Statistical\Reporter\Frm_ArrearYearsSum.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Statistical\Reporter\Frm_ArrearYearsSum.Designer.cs">
+      <DependentUpon>Frm_ArrearYearsSum.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Statistical\Reporter\Frm_ArrearYearsSumRep.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Statistical\Reporter\Frm_ArrearYearsSumRep.Designer.cs">
+      <DependentUpon>Frm_ArrearYearsSumRep.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Statistical\Reporter\Frm_DayChargeRep.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Statistical\Reporter\Frm_DayChargeRep.Designer.cs">
+      <DependentUpon>Frm_DayChargeRep.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Statistical\Reporter\Frm_DayChargeStat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Statistical\Reporter\Frm_DayChargeStat.Designer.cs">
+      <DependentUpon>Frm_DayChargeStat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Statistical\Reporter\Frm_DepartmentPowerFeeRep.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Statistical\Reporter\Frm_DepartmentPowerFeeRep.Designer.cs">
+      <DependentUpon>Frm_DepartmentPowerFeeRep.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Statistical\Reporter\Frm_DepartmentPowerFeeStat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Statistical\Reporter\Frm_DepartmentPowerFeeStat.Designer.cs">
+      <DependentUpon>Frm_DepartmentPowerFeeStat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Statistical\Reporter\Frm_InvoiceFeeRep.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Statistical\Reporter\Frm_InvoiceFeeRep.Designer.cs">
+      <DependentUpon>Frm_InvoiceFeeRep.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Statistical\Reporter\Frm_InvoiceFeeStat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Statistical\Reporter\Frm_InvoiceFeeStat.Designer.cs">
+      <DependentUpon>Frm_InvoiceFeeStat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Statistical\Reporter\Frm_LinePowerFeeRep.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Statistical\Reporter\Frm_LinePowerFeeRep.Designer.cs">
+      <DependentUpon>Frm_LinePowerFeeRep.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Statistical\Reporter\Frm_LinePowerFeeStat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Statistical\Reporter\Frm_LinePowerFeeStat.Designer.cs">
+      <DependentUpon>Frm_LinePowerFeeStat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Statistical\Reporter\Frm_MonthChargeRep.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Statistical\Reporter\Frm_MonthChargeRep.Designer.cs">
+      <DependentUpon>Frm_MonthChargeRep.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Statistical\Reporter\Frm_MonthChargeStat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Statistical\Reporter\Frm_MonthChargeStat.Designer.cs">
+      <DependentUpon>Frm_MonthChargeStat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Statistical\Reporter\Frm_NegativeInvoiceRep.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Statistical\Reporter\Frm_NegativeInvoiceRep.Designer.cs">
+      <DependentUpon>Frm_NegativeInvoiceRep.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Statistical\Reporter\Frm_NegativeInvoiceStat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Statistical\Reporter\Frm_NegativeInvoiceStat.Designer.cs">
+      <DependentUpon>Frm_NegativeInvoiceStat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Statistical\Reporter\Frm_PowerFeeListRep.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Statistical\Reporter\Frm_PowerFeeListRep.Designer.cs">
+      <DependentUpon>Frm_PowerFeeListRep.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Statistical\Reporter\Frm_PowerFeeListStat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Statistical\Reporter\Frm_PowerFeeListStat.Designer.cs">
+      <DependentUpon>Frm_PowerFeeListStat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Statistical\Reporter\Frm_PowerFeeStat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Statistical\Reporter\Frm_PowerFeeStat.Designer.cs">
+      <DependentUpon>Frm_PowerFeeStat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Statistical\Reporter\Frm_PowerFeeStatRep1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Statistical\Reporter\Frm_PowerFeeStatRep1.Designer.cs">
+      <DependentUpon>Frm_PowerFeeStatRep1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Statistical\Reporter\Frm_PowerFeeStatRep2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Statistical\Reporter\Frm_PowerFeeStatRep2.Designer.cs">
+      <DependentUpon>Frm_PowerFeeStatRep2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Statistical\Reporter\Frm_RuralOweRep.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Statistical\Reporter\Frm_RuralOweRep.Designer.cs">
+      <DependentUpon>Frm_RuralOweRep.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Statistical\Reporter\Frm_RuralOweStat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Statistical\Reporter\Frm_RuralOweStat.Designer.cs">
+      <DependentUpon>Frm_RuralOweStat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Statistical\Reporter\Frm_RuralPowerFeeRep.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Statistical\Reporter\Frm_RuralPowerFeeRep.Designer.cs">
+      <DependentUpon>Frm_RuralPowerFeeRep.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Statistical\Reporter\Frm_RuralPowerFeeStat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Statistical\Reporter\Frm_RuralPowerFeeStat.Designer.cs">
+      <DependentUpon>Frm_RuralPowerFeeStat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Statistical\Reporter\Frm_VolumPowerFeeRep.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Statistical\Reporter\Frm_VolumPowerFeeRep.Designer.cs">
+      <DependentUpon>Frm_VolumPowerFeeRep.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Statistical\Reporter\Frm_VolumPowerFeeStat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Statistical\Reporter\Frm_VolumPowerFeeStat.Designer.cs">
+      <DependentUpon>Frm_VolumPowerFeeStat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Statistical\Reporter\InvoiceFeeRep.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>InvoiceFeeRep.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Statistical\Reporter\LinePowerFeeRep.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LinePowerFeeRep.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Statistical\Reporter\MonthChargeRep.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MonthChargeRep.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Statistical\Reporter\NegativeInvoiceRep.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>NegativeInvoiceRep.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Statistical\Reporter\PowerFeeListRep.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PowerFeeListRep.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Statistical\Reporter\PowerFeeStatRep.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PowerFeeStatRep.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Statistical\Reporter\PowerIMSDataSet.cs">
+      <DependentUpon>PowerIMSDataSet.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Statistical\Reporter\PowerIMSDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PowerIMSDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Statistical\Reporter\ruralOweRep.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ruralOweRep.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Statistical\Reporter\RuralPowerFeeRep.cs">
+      <DependentUpon>RuralPowerFeeRep.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Statistical\Reporter\VolumPowerFeeRep.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>VolumPowerFeeRep.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Statistical\Reporter\Frm_CAreaPowerFeeStat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Statistical\Reporter\Frm_CAreaPowerFeeStat.Designer.cs">
+      <DependentUpon>Frm_CAreaPowerFeeStat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Statistical\Reporter\ArrearSumRep.cs">
+      <DependentUpon>ArrearSumRep.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Statistical\Reporter\Frm_PowerFeeListRep1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Statistical\Reporter\Frm_PowerFeeListRep1.Designer.cs">
+      <DependentUpon>Frm_PowerFeeListRep1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Statistical\Reporter\Frm_PowerFeeListStat1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Statistical\Reporter\Frm_PowerFeeListStat1.Designer.cs">
+      <DependentUpon>Frm_PowerFeeListStat1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Statistical\Reporter\PowerFeeListRep1.cs">
+      <DependentUpon>PowerFeeListRep1.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="SystemManagement\Frm_ModifyPassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SystemManagement\Frm_ModifyPassword.Designer.cs">
+      <DependentUpon>Frm_ModifyPassword.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SystemManagement\Frm_PenaltySet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SystemManagement\Frm_PenaltySet.Designer.cs">
+      <DependentUpon>Frm_PenaltySet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SystemManagement\Frm_User.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SystemManagement\Frm_User.Designer.cs">
+      <DependentUpon>Frm_User.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Image\Audit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Image\bk.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Image\company.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Image\Dict.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Image\Exit.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Image\main.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Image\report.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Image\role.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Image\setting.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Image\statistics.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BusinessLogic\BusinessLogic.csproj">
+      <Project>{742629AA-20F5-41F7-9FE8-DADDCC0255DF}</Project>
+      <Name>BusinessLogic</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BusinessModel\BusinessModel.csproj">
+      <Project>{29CE4B5D-3971-4A76-AC87-62B5AB4F475D}</Project>
+      <Name>BusinessModel</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Common\Common.csproj">
+      <Project>{5321BF20-8965-4CCF-9FE7-BC610520B6A9}</Project>
+      <Name>Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DBUtility\DBUtility.csproj">
+      <Project>{CE8CF4C1-18A2-4157-B232-65A329A40400}</Project>
+      <Name>DBUtility</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Image\main2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Image\main1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Image\Import.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Image\upload.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Image\users.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Image\Export.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Image\Frm_Icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Image\Delete.gif" />
+    <Content Include="Image\edit.ico" />
+    <Content Include="Image\NewAdd.ico" />
+    <None Include="app.config" />
+    <None Include="Image\pageset.png" />
+    <None Include="Image\printview.png" />
+    <None Include="Image\printer.png" />
+    <Content Include="Image\Save.bmp" />
+    <None Include="Resources\printer.jpg" />
+    <None Include="Statistical\Reporter\PowerIMSDataSet.xsc">
+      <DependentUpon>PowerIMSDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Statistical\Reporter\PowerIMSDataSet.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>PowerIMSDataSet.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Statistical\Reporter\PowerIMSDataSet.xss">
+      <DependentUpon>PowerIMSDataSet.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{967B4E0D-AD0C-4609-AB67-0FA40C0206D8}" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>7</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

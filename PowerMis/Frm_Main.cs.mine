@@ -1,0 +1,195 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Windows.Forms;
+using BusinessModel;
+using PowerMis.SystemManagement;
+using PowerMis.BasicInfo;
+using PowerMis.CountFeeManagement;
+using PowerMis.CustomInfo;
+using PowerMis.Statistical;
+using PowerMis.Statistical.Reporter;
+
+using Common;
+
+
+namespace PowerMis
+{
+    public partial class Frm_Main : Form
+    {
+        DateTime _loginTime;
+        public Frm_Main(DateTime time)
+        {
+            InitializeComponent();
+            _loginTime = time;
+        }
+
+        private void Frm_Main_Load(object sender, EventArgs e)
+        {
+
+            userName.Text = Constant.LoginUser.UserName;
+            loginTime.Text = _loginTime.ToString();
+        }
+
+        private void 退出系统ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void 用户管理ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Frm_User frmUser = new Frm_User();
+            frmUser.ShowDialog();
+        }
+
+
+        private void 客户信息维护ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MaintainCustom maintainCustom = new MaintainCustom();
+            maintainCustom.ShowDialog();
+        }
+
+        private void 客户信息录入ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            AddCustom addCustom = new AddCustom();
+            addCustom.ShowDialog();
+        }
+
+        private void 客户信息查询ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            SearchCustom searchCustom = new SearchCustom();
+            searchCustom.ShowDialog();
+        }
+
+
+        private void 修改密码ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Frm_ModifyPassword frmPswModify = new Frm_ModifyPassword();
+            frmPswModify.ShowDialog();
+        }
+
+        private void 电价信息ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            EpriceInfo ePrice = new EpriceInfo();
+            ePrice.ShowDialog();
+        }
+
+        private void 抄表录入ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Frm_FillTable frmFillFillTable = new Frm_FillTable();
+            frmFillFillTable.ShowDialog();
+        }
+
+        private void 抄表维护ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Frm_FillTableQuery frmFillTableQuery = new Frm_FillTableQuery();
+            frmFillTableQuery.ShowDialog();
+        }
+
+        private void 全年查询ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Frm_QueryAllyear frmQueryAllyear = new Frm_QueryAllyear();
+            frmQueryAllyear.ShowDialog();
+        }
+
+        private void 分摊变损ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Frm_ModifyTransLoss frmModifyTransLoss = new Frm_ModifyTransLoss();
+            frmModifyTransLoss.ShowDialog();
+        }
+
+        private void 台区供电ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Frm_AreaPowerSupply frmAreaPowerSupply = new Frm_AreaPowerSupply();
+            frmAreaPowerSupply.ShowDialog();
+        }
+
+        private void 线路供电ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Frm_LinePowerSupply frmLinePowerSuooly = new Frm_LinePowerSupply();
+            frmLinePowerSuooly.ShowDialog();
+        }
+
+        private void 接收电量ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Frm_ReceivePower frmReceivePower = new Frm_ReceivePower();
+            frmReceivePower.ShowDialog();
+        }
+
+        private void 农网发票ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Frm_RuraInvoicel frmRuralInvoice = new Frm_RuraInvoicel();
+            frmRuralInvoice.ShowDialog();
+        }
+
+
+        private void 客户转册ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ChangeSection changeSection = new ChangeSection();
+            changeSection.ShowDialog();
+        }
+
+
+        private void 城网发票ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Frm_CityInvoice frmTownInvoice = new Frm_CityInvoice();
+            frmTownInvoice.ShowDialog();
+        }
+
+        private void 增值税发票ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Frm_ValueAddedTax frmValueAddTax = new Frm_ValueAddedTax();
+            frmValueAddTax.ShowDialog();
+        }
+
+        private void 更改发票ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Frm_ChangeInvoiceFlag frmChangeInvoiceFlag = new Frm_ChangeInvoiceFlag();
+            frmChangeInvoiceFlag.ShowDialog();
+        }
+
+        private void 电费统计ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Frm_PowerFeeStat frmPowerFeeRep = new Frm_PowerFeeStat();
+            frmPowerFeeRep.ShowDialog();
+        }
+
+        private void 台区电量ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Frm_AreaPowerFeeStat frmAreaPowerFeeRep = new Frm_AreaPowerFeeStat();
+            frmAreaPowerFeeRep.ShowDialog();
+        }
+
+        private void 线路电量ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Frm_LinePowerFeeStat frmLinePowerStat = new Frm_LinePowerFeeStat();
+            frmLinePowerStat.ShowDialog();
+        }
+
+        private void 农村电量ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Frm_RuralPowerFeeStat frmRuralPowerFeeStat = new Frm_RuralPowerFeeStat();
+            frmRuralPowerFeeStat.ShowDialog();
+        }
+
+        private void 机关枢纽ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Frm_DepartmentPowerFeeStat frmDepPowerFeeStat = new Frm_DepartmentPowerFeeStat();
+            frmDepPowerFeeStat.ShowDialog();
+        }
+
+        private void 电费清单ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Frm_PowerFeeListStat frmPowerFeeListStat = new Frm_PowerFeeListStat();
+            frmPowerFeeListStat.ShowDialog();
+        }
+
+
+
+
+    }
+}

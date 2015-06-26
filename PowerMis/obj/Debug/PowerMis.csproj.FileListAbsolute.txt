@@ -1,0 +1,473 @@
+D:\Projects\PowerMis\bin\Debug\PowerMis.exe
+D:\Projects\PowerMis\bin\Debug\PowerMis.pdb
+D:\Projects\PowerMis\bin\Debug\BusinessLogic.dll
+D:\Projects\PowerMis\bin\Debug\BusinessModel.dll
+D:\Projects\PowerMis\bin\Debug\DBUtility.dll
+D:\Projects\PowerMis\bin\Debug\DBUtility.pdb
+D:\Projects\PowerMis\bin\Debug\BusinessLogic.pdb
+D:\Projects\PowerMis\bin\Debug\BusinessModel.pdb
+D:\Projects\PowerMis\obj\Debug\ResolveAssemblyReference.cache
+D:\Projects\PowerMis\obj\Debug\PowerMis.CustomInfo.MaintainCustom.resources
+D:\Projects\PowerMis\obj\Debug\PowerMis.Frm_Login.resources
+D:\Projects\PowerMis\obj\Debug\PowerMis.Frm_Main.resources
+D:\Projects\PowerMis\obj\Debug\PowerMis.Properties.Resources.resources
+D:\Projects\PowerMis\obj\Debug\PowerMis.csproj.GenerateResource.Cache
+D:\Projects\PowerMis\obj\Debug\PowerMis.exe
+D:\Projects\PowerMis\obj\Debug\PowerMis.pdb
+D:\Projects\PowerMis\obj\Debug\PowerMis.SystemManagement.Frm_User.resources
+D:\Projects\PowerMis\bin\Debug\Common.dll
+D:\Projects\PowerMis\bin\Debug\Common.pdb
+D:\Projects\PowerMis\obj\Debug\PowerMis.SystemManagement.Frm_ModifyPassword.resources
+D:\Projects\PowerMis\obj\Debug\PowerMis.Frm_DBConfig.resources
+D:\Projects\PowerMis\obj\Debug\PowerMis.CustomInfo.AddCustom.resources
+D:\Projects\PowerMis\obj\Debug\PowerMis.CustomInfo.SearchCustom.resources
+D:\Projects\PowerMis\obj\Debug\PowerMis.BasicInfo.EpriceInfo.resources
+D:\Projects\PowerMis\obj\Debug\PowerMis.CountFeeManagement.Frm_FillTable.resources
+D:\Projects\PowerMis\obj\Debug\PowerMis.CountFeeManagement.Frm_FillTableQuery.resources
+D:\Projects\PowerMis\obj\Debug\PowerMis.CountFeeManagement.Frm_QueryAllyear.resources
+D:\Projects\PowerMis\obj\Debug\PowerMis.CountFeeManagement.Frm_ModifyTransLoss.resources
+D:\Projects\PowerMis\obj\Debug\PowerMis.CountFeeManagement.Frm_AreaPowerSupply.resources
+D:\Projects\PowerMis\obj\Debug\PowerMis.CountFeeManagement.Frm_LinePowerSupply.resources
+D:\Projects\PowerMis\obj\Debug\PowerMis.CountFeeManagement.Frm_ReceivePower.resources
+D:\Projects\PowerMis\obj\Debug\PowerMis.Statistical.Frm_RuraInvoicel.resources
+D:\Projects\PowerMis\obj\Debug\PowerMis.Statistical.Frm_CityInvoice.resources
+D:\Projects\PowerMis\obj\Debug\PowerMis.Statistical.Frm_PreSave.resources
+D:\Projects\PowerMis\obj\Debug\PowerMis.Statistical.Frm_ValueAddedTax.resources
+D:\Projects\PowerMis\obj\Debug\PowerMis.Statistical.Frm_ChangeInvoiceFlag.resources
+D:\Projects\PowerMis\obj\Debug\PowerMis.Statistical.Reporter.Frm_PowerFeeStat.resources
+D:\Projects\PowerMis\obj\Debug\PowerMis.Statistical.Reporter.Frm_PowerFeeStatRep1.resources
+D:\Projects\PowerMis\obj\Debug\PowerMis.Statistical.Reporter.Frm_PowerFeeStatRep2.resources
+D:\Projects\PowerMis\obj\Debug\PowerMis.Statistical.Reporter.Frm_AreaPowerFeeRep.resources
+D:\Projects\PowerMis\obj\Debug\PowerMis.Statistical.Reporter.Frm_AreaPowerFeeStat.resources
+D:\Projects\PowerMis\obj\Debug\PowerMis.Statistical.Reporter.Frm_LinePowerFeeRep.resources
+D:\Projects\PowerMis\obj\Debug\PowerMis.Statistical.Reporter.Frm_LinePowerFeeStat.resources
+D:\Projects\PowerMis\obj\Debug\PowerMis.Statistical.Reporter.Frm_RuralPowerFeeRep.resources
+D:\Projects\PowerMis\obj\Debug\PowerMis.Statistical.Reporter.Frm_RuralPowerFeeStat.resources
+D:\Projects\PowerMis\obj\Debug\PowerMis.Statistical.Reporter.Frm_DepartmentPowerFeeRep.resources
+D:\Projects\PowerMis\obj\Debug\PowerMis.Statistical.Reporter.Frm_DepartmentPowerFeeStat.resources
+D:\Projects\PowerMis\obj\Debug\PowerMis.Statistical.Reporter.Frm_PowerFeeListStat.resources
+D:\Projects\PowerMis\obj\Debug\PowerMis.Statistical.Reporter.Frm_PowerFeeListRep.resources
+D:\Projects\PowerMis\obj\Debug\PowerMis.BasicInfo.Frm_AdditionInfo.resources
+D:\Projects\PowerMis\obj\Debug\PowerMis.BasicInfo.Frm_AreaAmmeter.resources
+D:\Projects\PowerMis\obj\Debug\PowerMis.BasicInfo.Frm_AreaInfo.resources
+D:\Projects\PowerMis\obj\Debug\PowerMis.BasicInfo.Frm_LineAmmeter.resources
+D:\Projects\PowerMis\obj\Debug\PowerMis.BasicInfo.Frm_LineInfo.resources
+D:\Projects\PowerMis\obj\Debug\PowerMis.Frm_ReceiveAmmeter.resources
+D:\Projects\PowerMis\obj\Debug\PowerMis.BasicInfo.Frm_TranLossInfo.resources
+D:\Projects\PowerMis\obj\Debug\PowerMis.BasicInfo.Frm_TransformerInfo.resources
+D:\Projects\PowerMis\obj\Debug\PowerMis.CustomInfo.ChangeSection.resources
+D:\Projects\PowerMis\obj\Debug\PowerMis.Statistical.Reporter.Frm_VolumPowerFeeRep.resources
+D:\Projects\PowerMis\obj\Debug\PowerMis.Statistical.Reporter.Frm_VolumPowerFeeStat.resources
+D:\Projects\PowerMis\obj\Debug\PowerMis.Statistical.Reporter.Frm_InvoiceFeeRep.resources
+D:\Projects\PowerMis\obj\Debug\PowerMis.Statistical.Reporter.Frm_InvoiceFeeStat.resources
+D:\Projects\PowerMis\obj\Debug\PowerMis.Statistical.Reporter.Frm_DayChargeStat.resources
+D:\Projects\PowerMis\obj\Debug\PowerMis.Statistical.Reporter.Frm_DayChargeRep.resources
+D:\Projects\PowerMis\obj\Debug\PowerMis.Statistical.Reporter.Frm_MonthChargeRep.resources
+D:\Projects\PowerMis\obj\Debug\PowerMis.Statistical.Reporter.Frm_MonthChargeStat.resources
+D:\Projects\PowerMis\obj\Debug\PowerMis.Statistical.Reporter.Frm_CAreaPowerFeeStat.resources
+D:\Projects\PowerMis\obj\Debug\PowerMis.Statistical.Reporter.Frm_ArrearListStat.resources
+D:\Projects\PowerMis\obj\Debug\PowerMis.Statistical.Reporter.Frm_ArrearListRep.resources
+D:\Projects\PowerMis\obj\Debug\PowerMis.Statistical.Reporter.Frm_ArrearSumRep.resources
+D:\Projects\PowerMis\obj\Debug\PowerMis.Statistical.Reporter.Frm_ArrearSumStat.resources
+D:\Projects\PowerMis\obj\Debug\PowerMis.SystemManagement.Frm_PenaltySet.resources
+D:\学习资料\C#程序\WSPowerIMS\PowerMis\obj\Debug\PowerMis.exe
+D:\学习资料\C#程序\WSPowerIMS\PowerMis\obj\Debug\PowerMis.pdb
+C:\Documents and Settings\arcgismanager\桌面\WSPowerIMS\PowerMis\obj\Debug\PowerMis.exe
+C:\Documents and Settings\arcgismanager\桌面\WSPowerIMS\PowerMis\obj\Debug\PowerMis.pdb
+C:\Documents and Settings\arcgismanager\桌面\WSPowerIMS\PowerMis\bin\Debug\PowerMis.exe
+C:\Documents and Settings\arcgismanager\桌面\WSPowerIMS\PowerMis\bin\Debug\PowerMis.pdb
+C:\Documents and Settings\arcgismanager\桌面\WSPowerIMS\PowerMis\bin\Debug\BusinessLogic.dll
+C:\Documents and Settings\arcgismanager\桌面\WSPowerIMS\PowerMis\bin\Debug\BusinessModel.dll
+C:\Documents and Settings\arcgismanager\桌面\WSPowerIMS\PowerMis\bin\Debug\Common.dll
+C:\Documents and Settings\arcgismanager\桌面\WSPowerIMS\PowerMis\bin\Debug\DBUtility.dll
+C:\Documents and Settings\arcgismanager\桌面\WSPowerIMS\PowerMis\bin\Debug\Common.pdb
+C:\Documents and Settings\arcgismanager\桌面\WSPowerIMS\PowerMis\bin\Debug\BusinessModel.pdb
+C:\Documents and Settings\arcgismanager\桌面\WSPowerIMS\PowerMis\bin\Debug\DBUtility.pdb
+C:\Documents and Settings\arcgismanager\桌面\WSPowerIMS\PowerMis\bin\Debug\BusinessLogic.pdb
+C:\Documents and Settings\arcgismanager\桌面\WSPowerIMS\PowerMis\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\arcgismanager\桌面\WSPowerIMS\PowerMis\obj\Debug\PowerMis.BasicInfo.EpriceInfo.resources
+C:\Documents and Settings\arcgismanager\桌面\WSPowerIMS\PowerMis\obj\Debug\PowerMis.BasicInfo.Frm_AdditionInfo.resources
+C:\Documents and Settings\arcgismanager\桌面\WSPowerIMS\PowerMis\obj\Debug\PowerMis.BasicInfo.Frm_AreaAmmeter.resources
+C:\Documents and Settings\arcgismanager\桌面\WSPowerIMS\PowerMis\obj\Debug\PowerMis.BasicInfo.Frm_AreaInfo.resources
+C:\Documents and Settings\arcgismanager\桌面\WSPowerIMS\PowerMis\obj\Debug\PowerMis.BasicInfo.Frm_LineAmmeter.resources
+C:\Documents and Settings\arcgismanager\桌面\WSPowerIMS\PowerMis\obj\Debug\PowerMis.BasicInfo.Frm_LineInfo.resources
+C:\Documents and Settings\arcgismanager\桌面\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Frm_ReceiveAmmeter.resources
+C:\Documents and Settings\arcgismanager\桌面\WSPowerIMS\PowerMis\obj\Debug\PowerMis.BasicInfo.Frm_TranLossInfo.resources
+C:\Documents and Settings\arcgismanager\桌面\WSPowerIMS\PowerMis\obj\Debug\PowerMis.BasicInfo.Frm_TransformerInfo.resources
+C:\Documents and Settings\arcgismanager\桌面\WSPowerIMS\PowerMis\obj\Debug\PowerMis.CountFeeManagement.Frm_AreaPowerSupply.resources
+C:\Documents and Settings\arcgismanager\桌面\WSPowerIMS\PowerMis\obj\Debug\PowerMis.CountFeeManagement.Frm_FillTable.resources
+C:\Documents and Settings\arcgismanager\桌面\WSPowerIMS\PowerMis\obj\Debug\PowerMis.CountFeeManagement.Frm_FillTableQuery.resources
+C:\Documents and Settings\arcgismanager\桌面\WSPowerIMS\PowerMis\obj\Debug\PowerMis.CountFeeManagement.Frm_LinePowerSupply.resources
+C:\Documents and Settings\arcgismanager\桌面\WSPowerIMS\PowerMis\obj\Debug\PowerMis.CountFeeManagement.Frm_ModifyTransLoss.resources
+C:\Documents and Settings\arcgismanager\桌面\WSPowerIMS\PowerMis\obj\Debug\PowerMis.CountFeeManagement.Frm_QueryAllyear.resources
+C:\Documents and Settings\arcgismanager\桌面\WSPowerIMS\PowerMis\obj\Debug\PowerMis.CountFeeManagement.Frm_ReceivePower.resources
+C:\Documents and Settings\arcgismanager\桌面\WSPowerIMS\PowerMis\obj\Debug\PowerMis.CustomInfo.AddCustom.resources
+C:\Documents and Settings\arcgismanager\桌面\WSPowerIMS\PowerMis\obj\Debug\PowerMis.CustomInfo.ChangeSection.resources
+C:\Documents and Settings\arcgismanager\桌面\WSPowerIMS\PowerMis\obj\Debug\PowerMis.CustomInfo.MaintainCustom.resources
+C:\Documents and Settings\arcgismanager\桌面\WSPowerIMS\PowerMis\obj\Debug\PowerMis.CustomInfo.SearchCustom.resources
+C:\Documents and Settings\arcgismanager\桌面\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Frm_DBConfig.resources
+C:\Documents and Settings\arcgismanager\桌面\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Frm_Login.resources
+C:\Documents and Settings\arcgismanager\桌面\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Frm_Main.resources
+C:\Documents and Settings\arcgismanager\桌面\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Properties.Resources.resources
+C:\Documents and Settings\arcgismanager\桌面\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Statistical.Frm_ChangeInvoiceFlag.resources
+C:\Documents and Settings\arcgismanager\桌面\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Statistical.Frm_CityInvoice.resources
+C:\Documents and Settings\arcgismanager\桌面\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Statistical.Frm_PreSave.resources
+C:\Documents and Settings\arcgismanager\桌面\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Statistical.Frm_RuraInvoicel.resources
+C:\Documents and Settings\arcgismanager\桌面\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Statistical.Frm_ValueAddedTax.resources
+C:\Documents and Settings\arcgismanager\桌面\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Statistical.Reporter.Frm_AreaPowerFeeRep.resources
+C:\Documents and Settings\arcgismanager\桌面\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Statistical.Reporter.Frm_AreaPowerFeeStat.resources
+C:\Documents and Settings\arcgismanager\桌面\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Statistical.Reporter.Frm_ArrearListRep.resources
+C:\Documents and Settings\arcgismanager\桌面\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Statistical.Reporter.Frm_ArrearListStat.resources
+C:\Documents and Settings\arcgismanager\桌面\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Statistical.Reporter.Frm_ArrearSumRep.resources
+C:\Documents and Settings\arcgismanager\桌面\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Statistical.Reporter.Frm_ArrearSumStat.resources
+C:\Documents and Settings\arcgismanager\桌面\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Statistical.Reporter.Frm_DayChargeRep.resources
+C:\Documents and Settings\arcgismanager\桌面\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Statistical.Reporter.Frm_DayChargeStat.resources
+C:\Documents and Settings\arcgismanager\桌面\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Statistical.Reporter.Frm_DepartmentPowerFeeRep.resources
+C:\Documents and Settings\arcgismanager\桌面\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Statistical.Reporter.Frm_DepartmentPowerFeeStat.resources
+C:\Documents and Settings\arcgismanager\桌面\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Statistical.Reporter.Frm_InvoiceFeeRep.resources
+C:\Documents and Settings\arcgismanager\桌面\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Statistical.Reporter.Frm_InvoiceFeeStat.resources
+C:\Documents and Settings\arcgismanager\桌面\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Statistical.Reporter.Frm_LinePowerFeeRep.resources
+C:\Documents and Settings\arcgismanager\桌面\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Statistical.Reporter.Frm_LinePowerFeeStat.resources
+C:\Documents and Settings\arcgismanager\桌面\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Statistical.Reporter.Frm_MonthChargeRep.resources
+C:\Documents and Settings\arcgismanager\桌面\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Statistical.Reporter.Frm_MonthChargeStat.resources
+C:\Documents and Settings\arcgismanager\桌面\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Statistical.Reporter.Frm_PowerFeeListRep.resources
+C:\Documents and Settings\arcgismanager\桌面\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Statistical.Reporter.Frm_PowerFeeListStat.resources
+C:\Documents and Settings\arcgismanager\桌面\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Statistical.Reporter.Frm_PowerFeeStat.resources
+C:\Documents and Settings\arcgismanager\桌面\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Statistical.Reporter.Frm_PowerFeeStatRep1.resources
+C:\Documents and Settings\arcgismanager\桌面\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Statistical.Reporter.Frm_PowerFeeStatRep2.resources
+C:\Documents and Settings\arcgismanager\桌面\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Statistical.Reporter.Frm_RuralPowerFeeRep.resources
+C:\Documents and Settings\arcgismanager\桌面\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Statistical.Reporter.Frm_RuralPowerFeeStat.resources
+C:\Documents and Settings\arcgismanager\桌面\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Statistical.Reporter.Frm_VolumPowerFeeRep.resources
+C:\Documents and Settings\arcgismanager\桌面\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Statistical.Reporter.Frm_VolumPowerFeeStat.resources
+C:\Documents and Settings\arcgismanager\桌面\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Statistical.Reporter.Frm_CAreaPowerFeeStat.resources
+C:\Documents and Settings\arcgismanager\桌面\WSPowerIMS\PowerMis\obj\Debug\PowerMis.SystemManagement.Frm_ModifyPassword.resources
+C:\Documents and Settings\arcgismanager\桌面\WSPowerIMS\PowerMis\obj\Debug\PowerMis.SystemManagement.Frm_PenaltySet.resources
+C:\Documents and Settings\arcgismanager\桌面\WSPowerIMS\PowerMis\obj\Debug\PowerMis.SystemManagement.Frm_User.resources
+C:\Documents and Settings\arcgismanager\桌面\WSPowerIMS\PowerMis\obj\Debug\PowerMis.csproj.GenerateResource.Cache
+E:\WSPowerIMS\PowerMis\obj\Debug\PowerMis.exe
+E:\WSPowerIMS\PowerMis\obj\Debug\PowerMis.pdb
+E:\WSPowerIMS\PowerMis\bin\Debug\PowerMis.exe
+E:\WSPowerIMS\PowerMis\bin\Debug\PowerMis.pdb
+E:\WSPowerIMS\PowerMis\bin\Debug\BusinessLogic.dll
+E:\WSPowerIMS\PowerMis\bin\Debug\BusinessModel.dll
+E:\WSPowerIMS\PowerMis\bin\Debug\Common.dll
+E:\WSPowerIMS\PowerMis\bin\Debug\DBUtility.dll
+E:\WSPowerIMS\PowerMis\bin\Debug\Common.pdb
+E:\WSPowerIMS\PowerMis\bin\Debug\BusinessModel.pdb
+E:\WSPowerIMS\PowerMis\bin\Debug\DBUtility.pdb
+E:\WSPowerIMS\PowerMis\bin\Debug\BusinessLogic.pdb
+E:\WSPowerIMS\PowerMis\obj\Debug\ResolveAssemblyReference.cache
+E:\WSPowerIMS\PowerMis\obj\Debug\PowerMis.BasicInfo.EpriceInfo.resources
+E:\WSPowerIMS\PowerMis\obj\Debug\PowerMis.BasicInfo.Frm_AdditionInfo.resources
+E:\WSPowerIMS\PowerMis\obj\Debug\PowerMis.BasicInfo.Frm_AreaAmmeter.resources
+E:\WSPowerIMS\PowerMis\obj\Debug\PowerMis.BasicInfo.Frm_AreaInfo.resources
+E:\WSPowerIMS\PowerMis\obj\Debug\PowerMis.BasicInfo.Frm_LineAmmeter.resources
+E:\WSPowerIMS\PowerMis\obj\Debug\PowerMis.BasicInfo.Frm_LineInfo.resources
+E:\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Frm_ReceiveAmmeter.resources
+E:\WSPowerIMS\PowerMis\obj\Debug\PowerMis.BasicInfo.Frm_TranLossInfo.resources
+E:\WSPowerIMS\PowerMis\obj\Debug\PowerMis.BasicInfo.Frm_TransformerInfo.resources
+E:\WSPowerIMS\PowerMis\obj\Debug\PowerMis.CountFeeManagement.Frm_AreaPowerSupply.resources
+E:\WSPowerIMS\PowerMis\obj\Debug\PowerMis.CountFeeManagement.Frm_FillTable.resources
+E:\WSPowerIMS\PowerMis\obj\Debug\PowerMis.CountFeeManagement.Frm_FillTableQuery.resources
+E:\WSPowerIMS\PowerMis\obj\Debug\PowerMis.CountFeeManagement.Frm_LinePowerSupply.resources
+E:\WSPowerIMS\PowerMis\obj\Debug\PowerMis.CountFeeManagement.Frm_ModifyTransLoss.resources
+E:\WSPowerIMS\PowerMis\obj\Debug\PowerMis.CountFeeManagement.Frm_QueryAllyear.resources
+E:\WSPowerIMS\PowerMis\obj\Debug\PowerMis.CountFeeManagement.Frm_ReceivePower.resources
+E:\WSPowerIMS\PowerMis\obj\Debug\PowerMis.CustomInfo.AddCustom.resources
+E:\WSPowerIMS\PowerMis\obj\Debug\PowerMis.CustomInfo.ChangeSection.resources
+E:\WSPowerIMS\PowerMis\obj\Debug\PowerMis.CustomInfo.MaintainCustom.resources
+E:\WSPowerIMS\PowerMis\obj\Debug\PowerMis.CustomInfo.SearchCustom.resources
+E:\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Frm_DBConfig.resources
+E:\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Frm_Login.resources
+E:\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Frm_Main.resources
+E:\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Properties.Resources.resources
+E:\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Statistical.Frm_ChangeInvoiceFlag.resources
+E:\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Statistical.Frm_CityInvoice.resources
+E:\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Statistical.Frm_PreSave.resources
+E:\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Statistical.Frm_RuraInvoicel.resources
+E:\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Statistical.Frm_ValueAddedTax.resources
+E:\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Statistical.Reporter.Frm_AreaPowerFeeRep.resources
+E:\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Statistical.Reporter.Frm_AreaPowerFeeStat.resources
+E:\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Statistical.Reporter.Frm_ArrearListRep.resources
+E:\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Statistical.Reporter.Frm_ArrearListStat.resources
+E:\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Statistical.Reporter.Frm_ArrearSumRep.resources
+E:\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Statistical.Reporter.Frm_ArrearSumStat.resources
+E:\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Statistical.Reporter.Frm_DayChargeRep.resources
+E:\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Statistical.Reporter.Frm_DayChargeStat.resources
+E:\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Statistical.Reporter.Frm_DepartmentPowerFeeRep.resources
+E:\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Statistical.Reporter.Frm_DepartmentPowerFeeStat.resources
+E:\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Statistical.Reporter.Frm_InvoiceFeeRep.resources
+E:\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Statistical.Reporter.Frm_InvoiceFeeStat.resources
+E:\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Statistical.Reporter.Frm_LinePowerFeeRep.resources
+E:\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Statistical.Reporter.Frm_LinePowerFeeStat.resources
+E:\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Statistical.Reporter.Frm_MonthChargeRep.resources
+E:\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Statistical.Reporter.Frm_MonthChargeStat.resources
+E:\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Statistical.Reporter.Frm_PowerFeeListRep.resources
+E:\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Statistical.Reporter.Frm_PowerFeeListStat.resources
+E:\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Statistical.Reporter.Frm_PowerFeeStat.resources
+E:\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Statistical.Reporter.Frm_PowerFeeStatRep1.resources
+E:\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Statistical.Reporter.Frm_PowerFeeStatRep2.resources
+E:\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Statistical.Reporter.Frm_RuralPowerFeeRep.resources
+E:\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Statistical.Reporter.Frm_RuralPowerFeeStat.resources
+E:\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Statistical.Reporter.Frm_VolumPowerFeeRep.resources
+E:\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Statistical.Reporter.Frm_VolumPowerFeeStat.resources
+E:\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Statistical.Reporter.Frm_CAreaPowerFeeStat.resources
+E:\WSPowerIMS\PowerMis\obj\Debug\PowerMis.SystemManagement.Frm_ModifyPassword.resources
+E:\WSPowerIMS\PowerMis\obj\Debug\PowerMis.SystemManagement.Frm_PenaltySet.resources
+E:\WSPowerIMS\PowerMis\obj\Debug\PowerMis.SystemManagement.Frm_User.resources
+E:\WSPowerIMS\PowerMis\obj\Debug\PowerMis.csproj.GenerateResource.Cache
+E:\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Statistical.Reporter.Frm_RuralOweRep.resources
+E:\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Statistical.Reporter.Frm_RuralOweStat.resources
+I:\新建文件夹\WSPowerIMS\PowerMis\obj\Debug\PowerMis.exe
+I:\新建文件夹\WSPowerIMS\PowerMis\obj\Debug\PowerMis.pdb
+I:\新建文件夹\WSPowerIMS\PowerMis\obj\Debug\ResolveAssemblyReference.cache
+I:\新建文件夹\WSPowerIMS\PowerMis\obj\Debug\PowerMis.BasicInfo.EpriceInfo.resources
+I:\新建文件夹\WSPowerIMS\PowerMis\obj\Debug\PowerMis.BasicInfo.Frm_AdditionInfo.resources
+I:\新建文件夹\WSPowerIMS\PowerMis\obj\Debug\PowerMis.BasicInfo.Frm_AreaAmmeter.resources
+I:\新建文件夹\WSPowerIMS\PowerMis\obj\Debug\PowerMis.BasicInfo.Frm_AreaInfo.resources
+I:\新建文件夹\WSPowerIMS\PowerMis\obj\Debug\PowerMis.BasicInfo.Frm_LineAmmeter.resources
+I:\新建文件夹\WSPowerIMS\PowerMis\obj\Debug\PowerMis.BasicInfo.Frm_LineInfo.resources
+I:\新建文件夹\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Frm_ReceiveAmmeter.resources
+I:\新建文件夹\WSPowerIMS\PowerMis\obj\Debug\PowerMis.BasicInfo.Frm_TranLossInfo.resources
+I:\新建文件夹\WSPowerIMS\PowerMis\obj\Debug\PowerMis.BasicInfo.Frm_TransformerInfo.resources
+I:\新建文件夹\WSPowerIMS\PowerMis\obj\Debug\PowerMis.CountFeeManagement.Frm_AreaPowerSupply.resources
+I:\新建文件夹\WSPowerIMS\PowerMis\obj\Debug\PowerMis.CountFeeManagement.Frm_FillTable.resources
+I:\新建文件夹\WSPowerIMS\PowerMis\obj\Debug\PowerMis.CountFeeManagement.Frm_FillTableQuery.resources
+I:\新建文件夹\WSPowerIMS\PowerMis\obj\Debug\PowerMis.CountFeeManagement.Frm_LinePowerSupply.resources
+I:\新建文件夹\WSPowerIMS\PowerMis\obj\Debug\PowerMis.CountFeeManagement.Frm_ModifyTransLoss.resources
+I:\新建文件夹\WSPowerIMS\PowerMis\obj\Debug\PowerMis.CountFeeManagement.Frm_QueryAllyear.resources
+I:\新建文件夹\WSPowerIMS\PowerMis\obj\Debug\PowerMis.CountFeeManagement.Frm_ReceivePower.resources
+I:\新建文件夹\WSPowerIMS\PowerMis\obj\Debug\PowerMis.CustomInfo.AddCustom.resources
+I:\新建文件夹\WSPowerIMS\PowerMis\obj\Debug\PowerMis.CustomInfo.ChangeSection.resources
+I:\新建文件夹\WSPowerIMS\PowerMis\obj\Debug\PowerMis.CustomInfo.MaintainCustom.resources
+I:\新建文件夹\WSPowerIMS\PowerMis\obj\Debug\PowerMis.CustomInfo.SearchCustom.resources
+I:\新建文件夹\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Frm_DBConfig.resources
+I:\新建文件夹\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Frm_Login.resources
+I:\新建文件夹\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Frm_Main.resources
+I:\新建文件夹\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Properties.Resources.resources
+I:\新建文件夹\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Statistical.Frm_ChangeInvoiceFlag.resources
+I:\新建文件夹\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Statistical.Frm_CityInvoice.resources
+I:\新建文件夹\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Statistical.Frm_PreSave.resources
+I:\新建文件夹\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Statistical.Frm_RuraInvoicel.resources
+I:\新建文件夹\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Statistical.Frm_ValueAddedTax.resources
+I:\新建文件夹\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Statistical.Reporter.Frm_AreaPowerFeeRep.resources
+I:\新建文件夹\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Statistical.Reporter.Frm_AreaPowerFeeStat.resources
+I:\新建文件夹\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Statistical.Reporter.Frm_ArrearListRep.resources
+I:\新建文件夹\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Statistical.Reporter.Frm_ArrearListStat.resources
+I:\新建文件夹\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Statistical.Reporter.Frm_ArrearSumRep.resources
+I:\新建文件夹\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Statistical.Reporter.Frm_ArrearSumStat.resources
+I:\新建文件夹\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Statistical.Reporter.Frm_DayChargeRep.resources
+I:\新建文件夹\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Statistical.Reporter.Frm_DayChargeStat.resources
+I:\新建文件夹\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Statistical.Reporter.Frm_DepartmentPowerFeeRep.resources
+I:\新建文件夹\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Statistical.Reporter.Frm_DepartmentPowerFeeStat.resources
+I:\新建文件夹\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Statistical.Reporter.Frm_InvoiceFeeRep.resources
+I:\新建文件夹\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Statistical.Reporter.Frm_InvoiceFeeStat.resources
+I:\新建文件夹\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Statistical.Reporter.Frm_LinePowerFeeRep.resources
+I:\新建文件夹\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Statistical.Reporter.Frm_LinePowerFeeStat.resources
+I:\新建文件夹\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Statistical.Reporter.Frm_MonthChargeRep.resources
+I:\新建文件夹\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Statistical.Reporter.Frm_MonthChargeStat.resources
+I:\新建文件夹\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Statistical.Reporter.Frm_PowerFeeListRep.resources
+I:\新建文件夹\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Statistical.Reporter.Frm_PowerFeeListStat.resources
+I:\新建文件夹\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Statistical.Reporter.Frm_PowerFeeStat.resources
+I:\新建文件夹\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Statistical.Reporter.Frm_PowerFeeStatRep1.resources
+I:\新建文件夹\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Statistical.Reporter.Frm_PowerFeeStatRep2.resources
+I:\新建文件夹\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Statistical.Reporter.Frm_RuralOweRep.resources
+I:\新建文件夹\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Statistical.Reporter.Frm_RuralOweStat.resources
+I:\新建文件夹\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Statistical.Reporter.Frm_RuralPowerFeeRep.resources
+I:\新建文件夹\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Statistical.Reporter.Frm_RuralPowerFeeStat.resources
+I:\新建文件夹\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Statistical.Reporter.Frm_VolumPowerFeeRep.resources
+I:\新建文件夹\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Statistical.Reporter.Frm_VolumPowerFeeStat.resources
+I:\新建文件夹\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Statistical.Reporter.Frm_CAreaPowerFeeStat.resources
+I:\新建文件夹\WSPowerIMS\PowerMis\obj\Debug\PowerMis.SystemManagement.Frm_ModifyPassword.resources
+I:\新建文件夹\WSPowerIMS\PowerMis\obj\Debug\PowerMis.SystemManagement.Frm_PenaltySet.resources
+I:\新建文件夹\WSPowerIMS\PowerMis\obj\Debug\PowerMis.SystemManagement.Frm_User.resources
+I:\新建文件夹\WSPowerIMS\PowerMis\obj\Debug\PowerMis.csproj.GenerateResource.Cache
+I:\新建文件夹\WSPowerIMS\PowerMis\bin\Debug\PowerMis.exe
+I:\新建文件夹\WSPowerIMS\PowerMis\bin\Debug\PowerMis.pdb
+I:\新建文件夹\WSPowerIMS\PowerMis\bin\Debug\BusinessLogic.dll
+I:\新建文件夹\WSPowerIMS\PowerMis\bin\Debug\BusinessModel.dll
+I:\新建文件夹\WSPowerIMS\PowerMis\bin\Debug\Common.dll
+I:\新建文件夹\WSPowerIMS\PowerMis\bin\Debug\DBUtility.dll
+I:\新建文件夹\WSPowerIMS\PowerMis\bin\Debug\Common.pdb
+I:\新建文件夹\WSPowerIMS\PowerMis\bin\Debug\BusinessModel.pdb
+I:\新建文件夹\WSPowerIMS\PowerMis\bin\Debug\DBUtility.pdb
+I:\新建文件夹\WSPowerIMS\PowerMis\bin\Debug\BusinessLogic.pdb
+D:\WSPowerIMS\PowerMis\bin\Debug\PowerMis.exe
+D:\WSPowerIMS\PowerMis\bin\Debug\PowerMis.pdb
+D:\WSPowerIMS\PowerMis\bin\Debug\BusinessLogic.dll
+D:\WSPowerIMS\PowerMis\bin\Debug\BusinessModel.dll
+D:\WSPowerIMS\PowerMis\bin\Debug\Common.dll
+D:\WSPowerIMS\PowerMis\bin\Debug\DBUtility.dll
+D:\WSPowerIMS\PowerMis\bin\Debug\Common.pdb
+D:\WSPowerIMS\PowerMis\bin\Debug\BusinessModel.pdb
+D:\WSPowerIMS\PowerMis\bin\Debug\DBUtility.pdb
+D:\WSPowerIMS\PowerMis\bin\Debug\BusinessLogic.pdb
+D:\WSPowerIMS\PowerMis\obj\Debug\ResolveAssemblyReference.cache
+D:\WSPowerIMS\PowerMis\obj\Debug\PowerMis.BasicInfo.EpriceInfo.resources
+D:\WSPowerIMS\PowerMis\obj\Debug\PowerMis.BasicInfo.Frm_AdditionInfo.resources
+D:\WSPowerIMS\PowerMis\obj\Debug\PowerMis.BasicInfo.Frm_AreaAmmeter.resources
+D:\WSPowerIMS\PowerMis\obj\Debug\PowerMis.BasicInfo.Frm_AreaInfo.resources
+D:\WSPowerIMS\PowerMis\obj\Debug\PowerMis.BasicInfo.Frm_LineAmmeter.resources
+D:\WSPowerIMS\PowerMis\obj\Debug\PowerMis.BasicInfo.Frm_LineInfo.resources
+D:\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Frm_ReceiveAmmeter.resources
+D:\WSPowerIMS\PowerMis\obj\Debug\PowerMis.BasicInfo.Frm_TranLossInfo.resources
+D:\WSPowerIMS\PowerMis\obj\Debug\PowerMis.BasicInfo.Frm_TransformerInfo.resources
+D:\WSPowerIMS\PowerMis\obj\Debug\PowerMis.CountFeeManagement.Frm_AreaPowerSupply.resources
+D:\WSPowerIMS\PowerMis\obj\Debug\PowerMis.CountFeeManagement.Frm_FillTable.resources
+D:\WSPowerIMS\PowerMis\obj\Debug\PowerMis.CountFeeManagement.Frm_FillTableQuery.resources
+D:\WSPowerIMS\PowerMis\obj\Debug\PowerMis.CountFeeManagement.Frm_LinePowerSupply.resources
+D:\WSPowerIMS\PowerMis\obj\Debug\PowerMis.CountFeeManagement.Frm_ModifyTransLoss.resources
+D:\WSPowerIMS\PowerMis\obj\Debug\PowerMis.CountFeeManagement.Frm_QueryAllyear.resources
+D:\WSPowerIMS\PowerMis\obj\Debug\PowerMis.CountFeeManagement.Frm_ReceivePower.resources
+D:\WSPowerIMS\PowerMis\obj\Debug\PowerMis.CustomInfo.AddCustom.resources
+D:\WSPowerIMS\PowerMis\obj\Debug\PowerMis.CustomInfo.ChangeSection.resources
+D:\WSPowerIMS\PowerMis\obj\Debug\PowerMis.CustomInfo.MaintainCustom.resources
+D:\WSPowerIMS\PowerMis\obj\Debug\PowerMis.CustomInfo.SearchCustom.resources
+D:\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Frm_DBConfig.resources
+D:\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Frm_Login.resources
+D:\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Frm_Main.resources
+D:\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Properties.Resources.resources
+D:\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Statistical.Frm_ChangeInvoiceFlag.resources
+D:\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Statistical.Frm_CityInvoice.resources
+D:\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Statistical.Frm_PreSave.resources
+D:\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Statistical.Frm_RuraInvoicel.resources
+D:\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Statistical.Frm_ValueAddedTax.resources
+D:\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Statistical.Reporter.Frm_AreaPowerFeeRep.resources
+D:\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Statistical.Reporter.Frm_AreaPowerFeeStat.resources
+D:\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Statistical.Reporter.Frm_ArrearListRep.resources
+D:\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Statistical.Reporter.Frm_ArrearListStat.resources
+D:\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Statistical.Reporter.Frm_ArrearSumRep.resources
+D:\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Statistical.Reporter.Frm_ArrearSumStat.resources
+D:\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Statistical.Reporter.Frm_DayChargeRep.resources
+D:\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Statistical.Reporter.Frm_DayChargeStat.resources
+D:\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Statistical.Reporter.Frm_DepartmentPowerFeeRep.resources
+D:\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Statistical.Reporter.Frm_DepartmentPowerFeeStat.resources
+D:\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Statistical.Reporter.Frm_InvoiceFeeRep.resources
+D:\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Statistical.Reporter.Frm_InvoiceFeeStat.resources
+D:\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Statistical.Reporter.Frm_LinePowerFeeRep.resources
+D:\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Statistical.Reporter.Frm_LinePowerFeeStat.resources
+D:\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Statistical.Reporter.Frm_MonthChargeRep.resources
+D:\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Statistical.Reporter.Frm_MonthChargeStat.resources
+D:\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Statistical.Reporter.Frm_PowerFeeListRep.resources
+D:\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Statistical.Reporter.Frm_PowerFeeListStat.resources
+D:\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Statistical.Reporter.Frm_PowerFeeStat.resources
+D:\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Statistical.Reporter.Frm_PowerFeeStatRep1.resources
+D:\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Statistical.Reporter.Frm_PowerFeeStatRep2.resources
+D:\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Statistical.Reporter.Frm_RuralOweRep.resources
+D:\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Statistical.Reporter.Frm_RuralOweStat.resources
+D:\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Statistical.Reporter.Frm_RuralPowerFeeRep.resources
+D:\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Statistical.Reporter.Frm_RuralPowerFeeStat.resources
+D:\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Statistical.Reporter.Frm_VolumPowerFeeRep.resources
+D:\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Statistical.Reporter.Frm_VolumPowerFeeStat.resources
+D:\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Statistical.Reporter.Frm_CAreaPowerFeeStat.resources
+D:\WSPowerIMS\PowerMis\obj\Debug\PowerMis.SystemManagement.Frm_ModifyPassword.resources
+D:\WSPowerIMS\PowerMis\obj\Debug\PowerMis.SystemManagement.Frm_PenaltySet.resources
+D:\WSPowerIMS\PowerMis\obj\Debug\PowerMis.SystemManagement.Frm_User.resources
+D:\WSPowerIMS\PowerMis\obj\Debug\PowerMis.csproj.GenerateResource.Cache
+D:\WSPowerIMS\PowerMis\obj\Debug\PowerMis.exe
+D:\WSPowerIMS\PowerMis\obj\Debug\PowerMis.pdb
+D:\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Statistical.Frm_negativeInvoice.resources
+D:\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Statistical.Frm_NegativeInvoiceDelete.resources
+D:\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Statistical.Reporter.Frm_NegativeInvoiceRep.resources
+D:\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Statistical.Reporter.Frm_NegativeInvoiceStat.resources
+D:\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Statistical.Frm_NegativeSearch.resources
+D:\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Statistical.Reporter.Frm_PowerFeeListRep1.resources
+D:\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Statistical.Reporter.Frm_PowerFeeListStat1.resources
+C:\Users\cai\Desktop\源代码\WSPowerIMS\PowerMis\obj\Debug\PowerMis.exe
+C:\Users\cai\Desktop\源代码\WSPowerIMS\PowerMis\obj\Debug\PowerMis.pdb
+I:\Users\cai\Desktop\WSPowerIMS\PowerMis\obj\Debug\PowerMis.exe
+I:\Users\cai\Desktop\WSPowerIMS\PowerMis\obj\Debug\PowerMis.pdb
+I:\Users\cai\Desktop\洈水收费软件\源代码\WSPowerIMS\PowerMis\bin\Debug\PowerMis.exe.config
+I:\Users\cai\Desktop\洈水收费软件\源代码\WSPowerIMS\PowerMis\bin\Debug\PowerMis.exe
+I:\Users\cai\Desktop\洈水收费软件\源代码\WSPowerIMS\PowerMis\bin\Debug\PowerMis.pdb
+I:\Users\cai\Desktop\洈水收费软件\源代码\WSPowerIMS\PowerMis\bin\Debug\BusinessLogic.dll
+I:\Users\cai\Desktop\洈水收费软件\源代码\WSPowerIMS\PowerMis\bin\Debug\BusinessModel.dll
+I:\Users\cai\Desktop\洈水收费软件\源代码\WSPowerIMS\PowerMis\bin\Debug\Common.dll
+I:\Users\cai\Desktop\洈水收费软件\源代码\WSPowerIMS\PowerMis\bin\Debug\DBUtility.dll
+I:\Users\cai\Desktop\洈水收费软件\源代码\WSPowerIMS\PowerMis\bin\Debug\Common.pdb
+I:\Users\cai\Desktop\洈水收费软件\源代码\WSPowerIMS\PowerMis\bin\Debug\BusinessModel.pdb
+I:\Users\cai\Desktop\洈水收费软件\源代码\WSPowerIMS\PowerMis\bin\Debug\DBUtility.pdb
+I:\Users\cai\Desktop\洈水收费软件\源代码\WSPowerIMS\PowerMis\bin\Debug\BusinessLogic.pdb
+I:\Users\cai\Desktop\洈水收费软件\源代码\WSPowerIMS\PowerMis\obj\Debug\ResolveAssemblyReference.cache
+I:\Users\cai\Desktop\洈水收费软件\源代码\WSPowerIMS\PowerMis\obj\Debug\PowerMis.BasicInfo.EpriceInfo.resources
+I:\Users\cai\Desktop\洈水收费软件\源代码\WSPowerIMS\PowerMis\obj\Debug\PowerMis.BasicInfo.Frm_AdditionInfo.resources
+I:\Users\cai\Desktop\洈水收费软件\源代码\WSPowerIMS\PowerMis\obj\Debug\PowerMis.BasicInfo.Frm_AreaAmmeter.resources
+I:\Users\cai\Desktop\洈水收费软件\源代码\WSPowerIMS\PowerMis\obj\Debug\PowerMis.BasicInfo.Frm_AreaInfo.resources
+I:\Users\cai\Desktop\洈水收费软件\源代码\WSPowerIMS\PowerMis\obj\Debug\PowerMis.BasicInfo.Frm_LineAmmeter.resources
+I:\Users\cai\Desktop\洈水收费软件\源代码\WSPowerIMS\PowerMis\obj\Debug\PowerMis.BasicInfo.Frm_LineInfo.resources
+I:\Users\cai\Desktop\洈水收费软件\源代码\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Frm_ReceiveAmmeter.resources
+I:\Users\cai\Desktop\洈水收费软件\源代码\WSPowerIMS\PowerMis\obj\Debug\PowerMis.BasicInfo.Frm_TranLossInfo.resources
+I:\Users\cai\Desktop\洈水收费软件\源代码\WSPowerIMS\PowerMis\obj\Debug\PowerMis.BasicInfo.Frm_TransformerInfo.resources
+I:\Users\cai\Desktop\洈水收费软件\源代码\WSPowerIMS\PowerMis\obj\Debug\PowerMis.CountFeeManagement.Frm_AreaPowerSupply.resources
+I:\Users\cai\Desktop\洈水收费软件\源代码\WSPowerIMS\PowerMis\obj\Debug\PowerMis.CountFeeManagement.Frm_FillTable.resources
+I:\Users\cai\Desktop\洈水收费软件\源代码\WSPowerIMS\PowerMis\obj\Debug\PowerMis.CountFeeManagement.Frm_FillTableQuery.resources
+I:\Users\cai\Desktop\洈水收费软件\源代码\WSPowerIMS\PowerMis\obj\Debug\PowerMis.CountFeeManagement.Frm_LinePowerSupply.resources
+I:\Users\cai\Desktop\洈水收费软件\源代码\WSPowerIMS\PowerMis\obj\Debug\PowerMis.CountFeeManagement.Frm_ModifyTransLoss.resources
+I:\Users\cai\Desktop\洈水收费软件\源代码\WSPowerIMS\PowerMis\obj\Debug\PowerMis.CountFeeManagement.Frm_QueryAllyear.resources
+I:\Users\cai\Desktop\洈水收费软件\源代码\WSPowerIMS\PowerMis\obj\Debug\PowerMis.CountFeeManagement.Frm_ReceivePower.resources
+I:\Users\cai\Desktop\洈水收费软件\源代码\WSPowerIMS\PowerMis\obj\Debug\PowerMis.CustomInfo.AddCustom.resources
+I:\Users\cai\Desktop\洈水收费软件\源代码\WSPowerIMS\PowerMis\obj\Debug\PowerMis.CustomInfo.ChangeSection.resources
+I:\Users\cai\Desktop\洈水收费软件\源代码\WSPowerIMS\PowerMis\obj\Debug\PowerMis.CustomInfo.MaintainCustom.resources
+I:\Users\cai\Desktop\洈水收费软件\源代码\WSPowerIMS\PowerMis\obj\Debug\PowerMis.CustomInfo.SearchCustom.resources
+I:\Users\cai\Desktop\洈水收费软件\源代码\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Frm_DBConfig.resources
+I:\Users\cai\Desktop\洈水收费软件\源代码\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Frm_Login.resources
+I:\Users\cai\Desktop\洈水收费软件\源代码\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Frm_Main.resources
+I:\Users\cai\Desktop\洈水收费软件\源代码\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Properties.Resources.resources
+I:\Users\cai\Desktop\洈水收费软件\源代码\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Statistical.Frm_AddPreSave.resources
+I:\Users\cai\Desktop\洈水收费软件\源代码\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Statistical.Frm_ChangeInvoiceFlag.resources
+I:\Users\cai\Desktop\洈水收费软件\源代码\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Statistical.Frm_CityInvoice.resources
+I:\Users\cai\Desktop\洈水收费软件\源代码\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Statistical.Frm_negativeInvoice.resources
+I:\Users\cai\Desktop\洈水收费软件\源代码\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Statistical.Frm_NegativeInvoiceDelete.resources
+I:\Users\cai\Desktop\洈水收费软件\源代码\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Statistical.Frm_NegativeSearch.resources
+I:\Users\cai\Desktop\洈水收费软件\源代码\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Statistical.Frm_PreSave.resources
+I:\Users\cai\Desktop\洈水收费软件\源代码\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Statistical.Frm_RuraInvoicel.resources
+I:\Users\cai\Desktop\洈水收费软件\源代码\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Statistical.Frm_ValueAddedTax.resources
+I:\Users\cai\Desktop\洈水收费软件\源代码\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Statistical.Reporter.Frm_AreaPowerFeeRep.resources
+I:\Users\cai\Desktop\洈水收费软件\源代码\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Statistical.Reporter.Frm_AreaPowerFeeStat.resources
+I:\Users\cai\Desktop\洈水收费软件\源代码\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Statistical.Reporter.Frm_ArrearListRep.resources
+I:\Users\cai\Desktop\洈水收费软件\源代码\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Statistical.Reporter.Frm_ArrearListStat.resources
+I:\Users\cai\Desktop\洈水收费软件\源代码\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Statistical.Reporter.Frm_ArrearSumRep.resources
+I:\Users\cai\Desktop\洈水收费软件\源代码\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Statistical.Reporter.Frm_ArrearSumStat.resources
+I:\Users\cai\Desktop\洈水收费软件\源代码\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Statistical.Reporter.Frm_ArrearYearsSum.resources
+I:\Users\cai\Desktop\洈水收费软件\源代码\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Statistical.Reporter.Frm_ArrearYearsSumRep.resources
+I:\Users\cai\Desktop\洈水收费软件\源代码\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Statistical.Reporter.Frm_DayChargeRep.resources
+I:\Users\cai\Desktop\洈水收费软件\源代码\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Statistical.Reporter.Frm_DayChargeStat.resources
+I:\Users\cai\Desktop\洈水收费软件\源代码\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Statistical.Reporter.Frm_DepartmentPowerFeeRep.resources
+I:\Users\cai\Desktop\洈水收费软件\源代码\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Statistical.Reporter.Frm_DepartmentPowerFeeStat.resources
+I:\Users\cai\Desktop\洈水收费软件\源代码\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Statistical.Reporter.Frm_InvoiceFeeRep.resources
+I:\Users\cai\Desktop\洈水收费软件\源代码\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Statistical.Reporter.Frm_InvoiceFeeStat.resources
+I:\Users\cai\Desktop\洈水收费软件\源代码\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Statistical.Reporter.Frm_LinePowerFeeRep.resources
+I:\Users\cai\Desktop\洈水收费软件\源代码\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Statistical.Reporter.Frm_LinePowerFeeStat.resources
+I:\Users\cai\Desktop\洈水收费软件\源代码\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Statistical.Reporter.Frm_MonthChargeRep.resources
+I:\Users\cai\Desktop\洈水收费软件\源代码\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Statistical.Reporter.Frm_MonthChargeStat.resources
+I:\Users\cai\Desktop\洈水收费软件\源代码\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Statistical.Reporter.Frm_NegativeInvoiceRep.resources
+I:\Users\cai\Desktop\洈水收费软件\源代码\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Statistical.Reporter.Frm_NegativeInvoiceStat.resources
+I:\Users\cai\Desktop\洈水收费软件\源代码\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Statistical.Reporter.Frm_PowerFeeListRep.resources
+I:\Users\cai\Desktop\洈水收费软件\源代码\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Statistical.Reporter.Frm_PowerFeeListStat.resources
+I:\Users\cai\Desktop\洈水收费软件\源代码\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Statistical.Reporter.Frm_PowerFeeStat.resources
+I:\Users\cai\Desktop\洈水收费软件\源代码\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Statistical.Reporter.Frm_PowerFeeStatRep1.resources
+I:\Users\cai\Desktop\洈水收费软件\源代码\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Statistical.Reporter.Frm_PowerFeeStatRep2.resources
+I:\Users\cai\Desktop\洈水收费软件\源代码\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Statistical.Reporter.Frm_RuralOweRep.resources
+I:\Users\cai\Desktop\洈水收费软件\源代码\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Statistical.Reporter.Frm_RuralOweStat.resources
+I:\Users\cai\Desktop\洈水收费软件\源代码\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Statistical.Reporter.Frm_RuralPowerFeeRep.resources
+I:\Users\cai\Desktop\洈水收费软件\源代码\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Statistical.Reporter.Frm_RuralPowerFeeStat.resources
+I:\Users\cai\Desktop\洈水收费软件\源代码\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Statistical.Reporter.Frm_VolumPowerFeeRep.resources
+I:\Users\cai\Desktop\洈水收费软件\源代码\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Statistical.Reporter.Frm_VolumPowerFeeStat.resources
+I:\Users\cai\Desktop\洈水收费软件\源代码\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Statistical.Reporter.Frm_CAreaPowerFeeStat.resources
+I:\Users\cai\Desktop\洈水收费软件\源代码\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Statistical.Reporter.Frm_PowerFeeListRep1.resources
+I:\Users\cai\Desktop\洈水收费软件\源代码\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Statistical.Reporter.Frm_PowerFeeListStat1.resources
+I:\Users\cai\Desktop\洈水收费软件\源代码\WSPowerIMS\PowerMis\obj\Debug\PowerMis.SystemManagement.Frm_ModifyPassword.resources
+I:\Users\cai\Desktop\洈水收费软件\源代码\WSPowerIMS\PowerMis\obj\Debug\PowerMis.SystemManagement.Frm_PenaltySet.resources
+I:\Users\cai\Desktop\洈水收费软件\源代码\WSPowerIMS\PowerMis\obj\Debug\PowerMis.SystemManagement.Frm_User.resources
+I:\Users\cai\Desktop\洈水收费软件\源代码\WSPowerIMS\PowerMis\obj\Debug\PowerMis.csproj.GenerateResource.Cache
+I:\Users\cai\Desktop\洈水收费软件\源代码\WSPowerIMS\PowerMis\obj\Debug\PowerMis.exe
+I:\Users\cai\Desktop\洈水收费软件\源代码\WSPowerIMS\PowerMis\obj\Debug\PowerMis.pdb
+I:\Users\cai\Desktop\洈水收费软件\源代码\WSPowerIMS\PowerMis\obj\Debug\PowerMis.csproj.ResolveComReference.cache
+I:\Users\cai\Desktop\洈水收费软件\源代码\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Bank.Frm_BankExport.resources
+I:\Users\cai\Desktop\洈水收费软件\源代码\WSPowerIMS\PowerMis\bin\Debug\Microsoft.Office.Interop.Excel.dll
+I:\Users\cai\Desktop\洈水收费软件\源代码\WSPowerIMS\PowerMis\bin\Debug\office.dll
+I:\Users\cai\Desktop\洈水收费软件\源代码\WSPowerIMS\PowerMis\bin\Debug\Microsoft.Vbe.Interop.dll
+I:\Users\cai\Desktop\洈水收费软件\源代码\WSPowerIMS\PowerMis\bin\Debug\Microsoft.Office.Interop.Excel.xml
+I:\Users\cai\Desktop\洈水收费软件\源代码\WSPowerIMS\PowerMis\bin\Debug\office.xml
+I:\Users\cai\Desktop\洈水收费软件\源代码\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Statistical.Frm_CityIvoicePrint.resources
+I:\Users\cai\Desktop\洈水收费软件\源代码\WSPowerIMS\PowerMis\obj\Debug\PowerMis.Bank.FrmBankImport.resources

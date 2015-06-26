@@ -1,0 +1,30 @@
+D:\Projects\BusinessModel\bin\Debug\BusinessModel.dll
+D:\Projects\BusinessModel\bin\Debug\BusinessModel.pdb
+D:\Projects\BusinessModel\obj\Debug\ResolveAssemblyReference.cache
+D:\Projects\BusinessModel\obj\Debug\BusinessModel.dll
+D:\Projects\BusinessModel\obj\Debug\BusinessModel.pdb
+C:\Documents and Settings\arcgismanager\桌面\WSPowerIMS\BusinessModel\bin\Debug\BusinessModel.dll
+C:\Documents and Settings\arcgismanager\桌面\WSPowerIMS\BusinessModel\bin\Debug\BusinessModel.pdb
+C:\Documents and Settings\arcgismanager\桌面\WSPowerIMS\BusinessModel\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\arcgismanager\桌面\WSPowerIMS\BusinessModel\obj\Debug\BusinessModel.dll
+C:\Documents and Settings\arcgismanager\桌面\WSPowerIMS\BusinessModel\obj\Debug\BusinessModel.pdb
+E:\WSPowerIMS\BusinessModel\bin\Debug\BusinessModel.dll
+E:\WSPowerIMS\BusinessModel\bin\Debug\BusinessModel.pdb
+E:\WSPowerIMS\BusinessModel\obj\Debug\ResolveAssemblyReference.cache
+E:\WSPowerIMS\BusinessModel\obj\Debug\BusinessModel.dll
+E:\WSPowerIMS\BusinessModel\obj\Debug\BusinessModel.pdb
+I:\新建文件夹\WSPowerIMS\BusinessModel\bin\Debug\BusinessModel.dll
+I:\新建文件夹\WSPowerIMS\BusinessModel\bin\Debug\BusinessModel.pdb
+I:\新建文件夹\WSPowerIMS\BusinessModel\obj\Debug\ResolveAssemblyReference.cache
+I:\新建文件夹\WSPowerIMS\BusinessModel\obj\Debug\BusinessModel.dll
+I:\新建文件夹\WSPowerIMS\BusinessModel\obj\Debug\BusinessModel.pdb
+D:\WSPowerIMS\BusinessModel\bin\Debug\BusinessModel.dll
+D:\WSPowerIMS\BusinessModel\bin\Debug\BusinessModel.pdb
+D:\WSPowerIMS\BusinessModel\obj\Debug\ResolveAssemblyReference.cache
+D:\WSPowerIMS\BusinessModel\obj\Debug\BusinessModel.dll
+D:\WSPowerIMS\BusinessModel\obj\Debug\BusinessModel.pdb
+I:\Users\cai\Desktop\洈水收费软件\源代码\WSPowerIMS\BusinessModel\bin\Debug\BusinessModel.dll
+I:\Users\cai\Desktop\洈水收费软件\源代码\WSPowerIMS\BusinessModel\bin\Debug\BusinessModel.pdb
+I:\Users\cai\Desktop\洈水收费软件\源代码\WSPowerIMS\BusinessModel\obj\Debug\ResolveAssemblyReference.cache
+I:\Users\cai\Desktop\洈水收费软件\源代码\WSPowerIMS\BusinessModel\obj\Debug\BusinessModel.dll
+I:\Users\cai\Desktop\洈水收费软件\源代码\WSPowerIMS\BusinessModel\obj\Debug\BusinessModel.pdb

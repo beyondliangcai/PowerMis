@@ -1,0 +1,79 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PowerMis", "PowerMis\PowerMis.csproj", "{5EA18C6D-FBFF-41DA-B2DA-2B4B1D18BD31}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DBUtility", "DBUtility\DBUtility.csproj", "{CE8CF4C1-18A2-4157-B232-65A329A40400}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessLogic", "BusinessLogic\BusinessLogic.csproj", "{742629AA-20F5-41F7-9FE8-DADDCC0255DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessModel", "BusinessModel\BusinessModel.csproj", "{29CE4B5D-3971-4A76-AC87-62B5AB4F475D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csproj", "{5321BF20-8965-4CCF-9FE7-BC610520B6A9}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "电费管理系统", "I:\Users\cai\Desktop\洈水收费软件\电费管理系统\电费管理系统.vdproj", "{3E80B2E5-2E95-4A14-AC60-18232A619C7D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5EA18C6D-FBFF-41DA-B2DA-2B4B1D18BD31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EA18C6D-FBFF-41DA-B2DA-2B4B1D18BD31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EA18C6D-FBFF-41DA-B2DA-2B4B1D18BD31}.Debug|x86.ActiveCfg = Debug|x86
+		{5EA18C6D-FBFF-41DA-B2DA-2B4B1D18BD31}.Debug|x86.Build.0 = Debug|x86
+		{5EA18C6D-FBFF-41DA-B2DA-2B4B1D18BD31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EA18C6D-FBFF-41DA-B2DA-2B4B1D18BD31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5EA18C6D-FBFF-41DA-B2DA-2B4B1D18BD31}.Release|x86.ActiveCfg = Release|x86
+		{5EA18C6D-FBFF-41DA-B2DA-2B4B1D18BD31}.Release|x86.Build.0 = Release|x86
+		{CE8CF4C1-18A2-4157-B232-65A329A40400}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE8CF4C1-18A2-4157-B232-65A329A40400}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE8CF4C1-18A2-4157-B232-65A329A40400}.Debug|x86.ActiveCfg = Debug|x86
+		{CE8CF4C1-18A2-4157-B232-65A329A40400}.Debug|x86.Build.0 = Debug|x86
+		{CE8CF4C1-18A2-4157-B232-65A329A40400}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE8CF4C1-18A2-4157-B232-65A329A40400}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE8CF4C1-18A2-4157-B232-65A329A40400}.Release|x86.ActiveCfg = Release|x86
+		{CE8CF4C1-18A2-4157-B232-65A329A40400}.Release|x86.Build.0 = Release|x86
+		{742629AA-20F5-41F7-9FE8-DADDCC0255DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{742629AA-20F5-41F7-9FE8-DADDCC0255DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{742629AA-20F5-41F7-9FE8-DADDCC0255DF}.Debug|x86.ActiveCfg = Debug|x86
+		{742629AA-20F5-41F7-9FE8-DADDCC0255DF}.Debug|x86.Build.0 = Debug|x86
+		{742629AA-20F5-41F7-9FE8-DADDCC0255DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{742629AA-20F5-41F7-9FE8-DADDCC0255DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{742629AA-20F5-41F7-9FE8-DADDCC0255DF}.Release|x86.ActiveCfg = Release|x86
+		{742629AA-20F5-41F7-9FE8-DADDCC0255DF}.Release|x86.Build.0 = Release|x86
+		{29CE4B5D-3971-4A76-AC87-62B5AB4F475D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29CE4B5D-3971-4A76-AC87-62B5AB4F475D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29CE4B5D-3971-4A76-AC87-62B5AB4F475D}.Debug|x86.ActiveCfg = Debug|x86
+		{29CE4B5D-3971-4A76-AC87-62B5AB4F475D}.Debug|x86.Build.0 = Debug|x86
+		{29CE4B5D-3971-4A76-AC87-62B5AB4F475D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29CE4B5D-3971-4A76-AC87-62B5AB4F475D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29CE4B5D-3971-4A76-AC87-62B5AB4F475D}.Release|x86.ActiveCfg = Release|x86
+		{29CE4B5D-3971-4A76-AC87-62B5AB4F475D}.Release|x86.Build.0 = Release|x86
+		{5321BF20-8965-4CCF-9FE7-BC610520B6A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5321BF20-8965-4CCF-9FE7-BC610520B6A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5321BF20-8965-4CCF-9FE7-BC610520B6A9}.Debug|x86.ActiveCfg = Debug|x86
+		{5321BF20-8965-4CCF-9FE7-BC610520B6A9}.Debug|x86.Build.0 = Debug|x86
+		{5321BF20-8965-4CCF-9FE7-BC610520B6A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5321BF20-8965-4CCF-9FE7-BC610520B6A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5321BF20-8965-4CCF-9FE7-BC610520B6A9}.Release|x86.ActiveCfg = Release|x86
+		{5321BF20-8965-4CCF-9FE7-BC610520B6A9}.Release|x86.Build.0 = Release|x86
+		{3E80B2E5-2E95-4A14-AC60-18232A619C7D}.Debug|Any CPU.ActiveCfg = Debug
+		{3E80B2E5-2E95-4A14-AC60-18232A619C7D}.Debug|Any CPU.Build.0 = Debug
+		{3E80B2E5-2E95-4A14-AC60-18232A619C7D}.Debug|x86.ActiveCfg = Debug
+		{3E80B2E5-2E95-4A14-AC60-18232A619C7D}.Debug|x86.Build.0 = Debug
+		{3E80B2E5-2E95-4A14-AC60-18232A619C7D}.Release|Any CPU.ActiveCfg = Release
+		{3E80B2E5-2E95-4A14-AC60-18232A619C7D}.Release|x86.ActiveCfg = Release
+		{3E80B2E5-2E95-4A14-AC60-18232A619C7D}.Release|x86.Build.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(SubversionScc) = preSolution
+		Svn-Managed = True
+		Manager = AnkhSVN - Subversion Support for Visual Studio
+	EndGlobalSection
+EndGlobal

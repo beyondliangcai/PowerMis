@@ -1,0 +1,54 @@
+D:\Projects\DBUtility\bin\Debug\DBUtility.dll
+D:\Projects\DBUtility\bin\Debug\DBUtility.pdb
+D:\Projects\DBUtility\obj\Debug\ResolveAssemblyReference.cache
+D:\Projects\DBUtility\obj\Debug\DBUtility.dll
+D:\Projects\DBUtility\obj\Debug\DBUtility.pdb
+D:\Projects\DBUtility\bin\Debug\BusinessModel.dll
+D:\Projects\DBUtility\bin\Debug\Common.dll
+D:\Projects\DBUtility\bin\Debug\Common.pdb
+D:\Projects\DBUtility\bin\Debug\BusinessModel.pdb
+C:\Documents and Settings\arcgismanager\桌面\WSPowerIMS\DBUtility\bin\Debug\DBUtility.dll
+C:\Documents and Settings\arcgismanager\桌面\WSPowerIMS\DBUtility\bin\Debug\DBUtility.pdb
+C:\Documents and Settings\arcgismanager\桌面\WSPowerIMS\DBUtility\bin\Debug\BusinessModel.dll
+C:\Documents and Settings\arcgismanager\桌面\WSPowerIMS\DBUtility\bin\Debug\Common.dll
+C:\Documents and Settings\arcgismanager\桌面\WSPowerIMS\DBUtility\bin\Debug\Common.pdb
+C:\Documents and Settings\arcgismanager\桌面\WSPowerIMS\DBUtility\bin\Debug\BusinessModel.pdb
+C:\Documents and Settings\arcgismanager\桌面\WSPowerIMS\DBUtility\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\arcgismanager\桌面\WSPowerIMS\DBUtility\obj\Debug\DBUtility.dll
+C:\Documents and Settings\arcgismanager\桌面\WSPowerIMS\DBUtility\obj\Debug\DBUtility.pdb
+E:\WSPowerIMS\DBUtility\bin\Debug\DBUtility.dll
+E:\WSPowerIMS\DBUtility\bin\Debug\DBUtility.pdb
+E:\WSPowerIMS\DBUtility\bin\Debug\BusinessModel.dll
+E:\WSPowerIMS\DBUtility\bin\Debug\Common.dll
+E:\WSPowerIMS\DBUtility\bin\Debug\Common.pdb
+E:\WSPowerIMS\DBUtility\bin\Debug\BusinessModel.pdb
+E:\WSPowerIMS\DBUtility\obj\Debug\ResolveAssemblyReference.cache
+E:\WSPowerIMS\DBUtility\obj\Debug\DBUtility.dll
+E:\WSPowerIMS\DBUtility\obj\Debug\DBUtility.pdb
+I:\新建文件夹\WSPowerIMS\DBUtility\bin\Debug\DBUtility.dll
+I:\新建文件夹\WSPowerIMS\DBUtility\bin\Debug\DBUtility.pdb
+I:\新建文件夹\WSPowerIMS\DBUtility\bin\Debug\BusinessModel.dll
+I:\新建文件夹\WSPowerIMS\DBUtility\bin\Debug\Common.dll
+I:\新建文件夹\WSPowerIMS\DBUtility\bin\Debug\Common.pdb
+I:\新建文件夹\WSPowerIMS\DBUtility\bin\Debug\BusinessModel.pdb
+I:\新建文件夹\WSPowerIMS\DBUtility\obj\Debug\ResolveAssemblyReference.cache
+I:\新建文件夹\WSPowerIMS\DBUtility\obj\Debug\DBUtility.dll
+I:\新建文件夹\WSPowerIMS\DBUtility\obj\Debug\DBUtility.pdb
+D:\WSPowerIMS\DBUtility\bin\Debug\DBUtility.dll
+D:\WSPowerIMS\DBUtility\bin\Debug\DBUtility.pdb
+D:\WSPowerIMS\DBUtility\bin\Debug\BusinessModel.dll
+D:\WSPowerIMS\DBUtility\bin\Debug\Common.dll
+D:\WSPowerIMS\DBUtility\bin\Debug\Common.pdb
+D:\WSPowerIMS\DBUtility\bin\Debug\BusinessModel.pdb
+D:\WSPowerIMS\DBUtility\obj\Debug\ResolveAssemblyReference.cache
+D:\WSPowerIMS\DBUtility\obj\Debug\DBUtility.dll
+D:\WSPowerIMS\DBUtility\obj\Debug\DBUtility.pdb
+I:\Users\cai\Desktop\洈水收费软件\源代码\WSPowerIMS\DBUtility\bin\Debug\DBUtility.dll
+I:\Users\cai\Desktop\洈水收费软件\源代码\WSPowerIMS\DBUtility\bin\Debug\DBUtility.pdb
+I:\Users\cai\Desktop\洈水收费软件\源代码\WSPowerIMS\DBUtility\bin\Debug\BusinessModel.dll
+I:\Users\cai\Desktop\洈水收费软件\源代码\WSPowerIMS\DBUtility\bin\Debug\Common.dll
+I:\Users\cai\Desktop\洈水收费软件\源代码\WSPowerIMS\DBUtility\bin\Debug\Common.pdb
+I:\Users\cai\Desktop\洈水收费软件\源代码\WSPowerIMS\DBUtility\bin\Debug\BusinessModel.pdb
+I:\Users\cai\Desktop\洈水收费软件\源代码\WSPowerIMS\DBUtility\obj\Debug\ResolveAssemblyReference.cache
+I:\Users\cai\Desktop\洈水收费软件\源代码\WSPowerIMS\DBUtility\obj\Debug\DBUtility.dll
+I:\Users\cai\Desktop\洈水收费软件\源代码\WSPowerIMS\DBUtility\obj\Debug\DBUtility.pdb

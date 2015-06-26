@@ -1,0 +1,5 @@
+I:\Users\cai\Desktop\洈水收费软件\源代码\WSPowerIMS\BusinessModel\bin\x86\Debug\BusinessModel.dll
+I:\Users\cai\Desktop\洈水收费软件\源代码\WSPowerIMS\BusinessModel\bin\x86\Debug\BusinessModel.pdb
+I:\Users\cai\Desktop\洈水收费软件\源代码\WSPowerIMS\BusinessModel\obj\x86\Debug\ResolveAssemblyReference.cache
+I:\Users\cai\Desktop\洈水收费软件\源代码\WSPowerIMS\BusinessModel\obj\x86\Debug\BusinessModel.dll
+I:\Users\cai\Desktop\洈水收费软件\源代码\WSPowerIMS\BusinessModel\obj\x86\Debug\BusinessModel.pdb
