@@ -24,6 +24,14 @@ namespace PowerMis.Bank
 
             fillYear();//填充数据库有记录的年份
             fillMonth();//填充月份
+            fileElectricType();//填充用电性质
+        }
+
+        private void fileElectricType()
+        {
+            electricType.Items.Add("城网用户");
+            electricType.Items.Add("农网用户");
+            electricType.SelectedIndex = 1;
         }
 
       
@@ -94,9 +102,12 @@ namespace PowerMis.Bank
             {
                 MessageBox.Show("选择文件夹错误");
             }     
+            if(electricType.SelectedIndex==0){//导出城网用户信息
+                exportCityData(int.Parse(bankExportYear.SelectedItem.ToString()), int.Parse(bankExportMonth.SelectedItem.ToString()), exportPath);       //导出城网数据
             
-             exportRuralData();      //导出农网数据
-             exportCityData(int.Parse(bankExportYear.SelectedItem.ToString()), int.Parse(bankExportMonth.SelectedItem.ToString()), exportPath);       //导出城网数据
+            }
+
+            exportRuralData(int.Parse(bankExportYear.SelectedItem.ToString()), int.Parse(bankExportMonth.SelectedItem.ToString()), exportPath);      //导出农网数据
             
         }
 
@@ -326,9 +337,109 @@ namespace PowerMis.Bank
         
         }
 
-        private void exportRuralData()
+
+        //测试19011到19072的农网用户
+
+        private void exportRuralData(int exportYear, int exportMonth, string exportPath)
         {
-            //throw new NotImplementedException();
+            //实例化一个Excel.Application对象  
+            string tempSql = "";
+            string tempSql2 = "";
+            int flag = 0;   //标志变量，判断该用户的欠费时间是否已经生成worksheet
+            int tmpPosition = 1;
+            int tempWorksheetYear;
+            int tempWorksheetMonth;
+
+            Worksheet tempRuralDataSheet;
+            string time = exportYear.ToString() + "-" + exportMonth.ToString() + "-1";
+            string filePath = exportPath + "\\农网" + exportYear.ToString() + "年" + exportMonth.ToString() + "月导出数据报表.xls";
+
+            Microsoft.Office.Interop.Excel.Application ruralExcel = new Microsoft.Office.Interop.Excel.Application();
+            ruralExcel.Visible = true;
+            object misValue = System.Reflection.Missing.Value;
+            Microsoft.Office.Interop.Excel.Workbook ruralWorkbook = ruralExcel.Application.Workbooks.Add(misValue); //创建excel工作簿
+
+            //Worksheet以年月命名,tempCityDataSheet是第一张Worksheet
+            tempRuralDataSheet = (Worksheet)ruralWorkbook.Sheets[1];
+            tempRuralDataSheet.Name = exportYear.ToString() + "-" + exportMonth.ToString();
+            ruralExcel.Caption = "农网" + exportYear + "年" + exportMonth + "月导出数据报表";
+            initBankExcel(tempRuralDataSheet); //初始化城网数据excel
+
+
+
+            try
+            {
+                //查找本月没有缴纳费用的签约用户and signflag=1,该用户上个月有欠费信息,测试19011-19072的用户 AND (CustomerInfo.CustomerNo <='00019072-1')
+                string cityDataSql = "SELECT CustomerInfo.CustomerNo, CustomerInfo.CustomerName, CustomerInfo.identificationCard, CustomerInfo.BankAccount, CustomerInfo.PhoneNum,CONVERT(VARCHAR(12),CountFee.CountFeeDate,23), CountFee.StartCode, CountFee.EndCode, CountFee.AccountRec, CustomerInfo.ElectriCharacterName" +
+                                      " FROM CountFee INNER JOIN  CustomerInfo ON CountFee.CustomerNo = CustomerInfo.CustomerNo " +
+                                      " WHERE (CustomerInfo.ElectriCharacterName = '农网') AND (InvoiceFlag =0)  AND (CountFee.FactRec > 0) AND (YEAR(CountFee.CountFeeDate) = '" + exportYear + "') AND (MONTH(CountFee.CountFeeDate) = '" + exportMonth + "')";
+                System.Data.DataTable ruralDataDt = DBUtility.SQLUtl.Query(cityDataSql).Tables[0];
+               
+
+                int rowNum = ruralDataDt.Rows.Count;  //行数
+                int columnNum = 9;                   //列数
+                int tempRows = 2;
+                int temp = 0;
+                string tempTimeYear;
+                string tempTimeMonth;
+                Range tempRange;
+
+                //当月没有用户欠费信息
+                if (rowNum <= 0)
+                {
+                    MessageBox.Show("当月没有用户欠费信息");
+                    this.Close();
+                }
+                
+               //添加一张Sheet
+               tempRuralDataSheet = (Worksheet)ruralWorkbook.Sheets[1];
+                for (int i = 1; i <= rowNum; i++)
+                {
+
+                    // AND (SignFlag =1)
+
+                    //遍历每个农网用户的信息
+                    tempSql = "SELECT CustomerInfo.CustomerNo, CustomerInfo.CustomerName, CustomerInfo.identificationCard, CustomerInfo.BankAccount, CustomerInfo.PhoneNum,CONVERT(VARCHAR(12),CountFee.CountFeeDate,23) as CountFeeDate, CountFee.StartCode, CountFee.EndCode, CountFee.TotalMoney, CustomerInfo.ElectriCharacterName" +
+                                  " FROM CountFee INNER JOIN  CustomerInfo ON CountFee.CustomerNo = CustomerInfo.CustomerNo " +
+                                  " WHERE (CustomerInfo.ElectriCharacterName = '农网') AND (CountFeeAmount <> 0) AND (InvoiceFlag =0) AND (CountFee.FactRec > 0) AND CountFee.CustomerNo ='" + ruralDataDt.Rows[i - 1]["CustomerNo"] + "' AND CountFee.CountFeeDate='" + time + "'" +
+                                  " order by CountFee.CountFeeDate desc ";
+                    System.Data.DataTable tempDt = DBUtility.SQLUtl.Query(tempSql).Tables[0];
+
+                   
+                    //如果有用户本月没有欠费信息
+                    if (tempDt.Rows.Count == 0)
+                    {
+                     
+                    }
+                    //如果有用户本月有欠费信息
+                    else
+                    {                     
+                       for (int m = 1; m <= columnNum; m++)
+                        {
+                               tempRuralDataSheet.Cells[tempRows, m] = tempDt.Rows[0][m - 1].ToString();
+                               tempRange = (Range)tempRuralDataSheet.Cells[tempRows, m];
+                                // tempRange.NumberFormatLocal = "@";//设置文本格式
+                                tempRange.EntireColumn.AutoFit();
+                         }
+                            
+                      }
+
+
+
+                    }               
+           
+                ruralWorkbook.Save();
+                ruralWorkbook.SaveAs(filePath, Microsoft.Office.Interop.Excel.XlFileFormat.xlExcel12, null, null, true, false, Microsoft.Office.Interop.Excel.XlSaveAsAccessMode.xlNoChange, null, null, null, null, null);
+
+                ruralExcel.Quit();
+            }
+
+
+            catch (Exception e)
+            {
+                MessageBox.Show("导出excel数据失败！" + e.ToString());
+            }
+        
         }
 
         private void button3_Click(object sender, EventArgs e)

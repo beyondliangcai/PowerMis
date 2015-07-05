@@ -36,6 +36,8 @@
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
+            this.lable5 = new System.Windows.Forms.Label();
+            this.electricType = new System.Windows.Forms.ComboBox();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -59,7 +61,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(6, 110);
+            this.label2.Location = new System.Drawing.Point(6, 108);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(101, 12);
             this.label2.TabIndex = 7;
@@ -68,13 +70,15 @@
             // bankExportMonth
             // 
             this.bankExportMonth.FormattingEnabled = true;
-            this.bankExportMonth.Location = new System.Drawing.Point(159, 107);
+            this.bankExportMonth.Location = new System.Drawing.Point(159, 100);
             this.bankExportMonth.Name = "bankExportMonth";
             this.bankExportMonth.Size = new System.Drawing.Size(90, 20);
             this.bankExportMonth.TabIndex = 8;
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.electricType);
+            this.groupBox1.Controls.Add(this.lable5);
             this.groupBox1.Controls.Add(this.button3);
             this.groupBox1.Controls.Add(this.button4);
             this.groupBox1.Controls.Add(this.label1);
@@ -83,14 +87,14 @@
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Location = new System.Drawing.Point(12, 12);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(283, 235);
+            this.groupBox1.Size = new System.Drawing.Size(283, 268);
             this.groupBox1.TabIndex = 2;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "银行数据导出";
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(174, 194);
+            this.button3.Location = new System.Drawing.Point(174, 215);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(75, 23);
             this.button3.TabIndex = 11;
@@ -100,7 +104,7 @@
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(76, 194);
+            this.button4.Location = new System.Drawing.Point(74, 215);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(75, 23);
             this.button4.TabIndex = 9;
@@ -108,11 +112,28 @@
             this.button4.UseVisualStyleBackColor = true;
             this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
+            // lable5
+            // 
+            this.lable5.AutoSize = true;
+            this.lable5.Location = new System.Drawing.Point(6, 160);
+            this.lable5.Name = "lable5";
+            this.lable5.Size = new System.Drawing.Size(65, 12);
+            this.lable5.TabIndex = 12;
+            this.lable5.Text = "用电性质：";
+            // 
+            // electricType
+            // 
+            this.electricType.FormattingEnabled = true;
+            this.electricType.Location = new System.Drawing.Point(159, 160);
+            this.electricType.Name = "electricType";
+            this.electricType.Size = new System.Drawing.Size(90, 20);
+            this.electricType.TabIndex = 13;
+            // 
             // Frm_BankExport
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(308, 263);
+            this.ClientSize = new System.Drawing.Size(308, 308);
             this.Controls.Add(this.groupBox1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Frm_BankExport";
@@ -134,5 +155,7 @@
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.ComboBox electricType;
+        private System.Windows.Forms.Label lable5;
     }
 }

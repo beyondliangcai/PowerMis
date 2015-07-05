@@ -12,7 +12,8 @@ namespace PowerMis.Bank
     public partial class FrmBankImport : Form
     {
         private string importPath;//导入数据性质
-        Microsoft.Office.Interop.Excel.Application importExcel=new Microsoft.Office.Interop.Excel.Application();;
+        private object misValue = System.Reflection.Missing.Value;
+        Microsoft.Office.Interop.Excel.Application importExcel;
         public FrmBankImport()
         {
             InitializeComponent();
@@ -104,7 +105,7 @@ namespace PowerMis.Bank
             {
                 MessageBox.Show("请选择导入的年份或月份");
             }
-            Excel.Application excel = new Excel.ApplicationClass();//lauch excel application  
+            Microsoft.Office.Interop.Excel.Application excel = new Microsoft.Office.Interop.Excel.ApplicationClass();//lauch excel application  
 
             if (ElectriCharacter.SelectedIndex == 0)
             {
@@ -119,12 +120,35 @@ namespace PowerMis.Bank
 
         private void importRuralExcel()
         {
+           importExcel =new Microsoft.Office.Interop.Excel.Application();
+           if (importExcel == null) {
+               MessageBox.Show("打开excel 失败");
+           }
+
           
         }
 
         private void importCityExcel()
         {
             
+            try
+            {
+                importExcel = new Microsoft.Office.Interop.Excel.Application();
+
+                importExcel.Visible = true;
+                // 以只读的形式打开EXCEL文件 
+                Microsoft.Office.Interop.Excel.Workbook importWorkbook = importExcel.Application.Workbooks.Open(importPath, misValue, true, misValue, misValue, misValue,
+           misValue, misValue, misValue, true, misValue, misValue, misValue, misValue, misValue);
+                //取得第一个工作薄  
+                Microsoft.Office.Interop.Excel.Worksheet importWorksheet = (Microsoft.Office.Interop.Excel.Worksheet)importWorkbook.Worksheets.get_Item(1);
+                //取得总记录行数    (包括标题列)  
+                int rowsint = importWorksheet.UsedRange.Cells.Rows.Count; //得到行数  
+                int columnsint = importWorksheet.UsedRange.Cells.Columns.Count;//得到列数  
+
+            }
+            catch (Exception e) {
+                MessageBox.Show("打开excel 失败"+e.ToString());
+            }
         }
 
     }
